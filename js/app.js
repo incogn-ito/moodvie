@@ -151,62 +151,84 @@ const prompts = [
       {text: 'Opt C', navigateToIdx: 3},
       {text: 'Opt D', navigateToIdx: 4}
     ]
+  },
+  {
+    id: 14, // 
+    question: '',
+    options: [
+      {text: 'Opt A', navigateToIdx: 1},
+      {text: 'Opt B', navigateToIdx: 2},
+      {text: 'Opt C', navigateToIdx: 3},
+      {text: 'Opt D', navigateToIdx: 4}
+    ]
   }
 
 ]
 
-const movies = [
+const itoLeonMovies = [
   {
     id: 0,
+    theme: 'Fantasy',
     title: 'Lord of the Rings',
+    synopsis: 'A mighty wizard leads a reluctant band of men, hobbits, a dwarf, and an elf on a terrifying quest to destroy the One Ring before an ancient evil god becomes manifest and destroys all Middle-Earth.',
     director: 'Peter Jackson',
-    themes: ['fantasy','adventure', 'AFI']
+    
   },
   {
     id: 1,
-    title: 'TBD',
-    director: 'TBD',
-    themes: ['TBD','TBD', 'AFI']
+    theme: 'Fantasy',
+    title: 'Lord of the Rings',
+    synopsis: ,
+    director: 'Peter Jackson',
+    
   },
   {
     id: 2,
-    title: 'TBD',
-    director: 'TBD',
-    themes: ['TBD','TBD', 'AFI']
+    theme: 'Fantasy',
+    title: 'Lord of the Rings',
+    synopsis: ,
+    director: 'Peter Jackson',
   },
 {
   id: 3,
-  title: 'TBD',
-  director: 'TBD',
-  themes: ['TBD','TBD', 'AFI']
+  theme: 'Fantasy',
+  title: 'Lord of the Rings',
+  synopsis: ,
+  director: 'Peter Jackson',
 },
 ,
 {
   id: 4,
-  title: 'TBD',
-  director: 'TBD',
-  themes: ['TBD','TBD', 'AFI']
+  theme: 'Fantasy',
+  title: 'Lord of the Rings',
+  synopsis: ,
+  director: 'Peter Jackson',
 },
 {
   id: 5,
-  title: 'TBD',
-  director: 'TBD',
-  themes: ['TBD','TBD', 'AFI']
+  theme: 'Fantasy',
+  title: 'Lord of the Rings',
+  synopsis: ,
+  director: 'Peter Jackson',
 },
 {
   id: 6,
-  title: 'TBD',
-  director: 'TBD',
-  themes: ['TBD','TBD', 'AFI']
+  theme: 'Fantasy',
+  title: 'Lord of the Rings',
+  synopsis: ,
+  director: 'Peter Jackson',
 },
 {
   id: 7,
-  title: 'TBD',
-  director: 'TBD',
-  themes: ['TBD','TBD', 'AFI']
+  theme: 'Fantasy',
+  title: 'Lord of the Rings',
+  synopsis: ,
+  director: 'Peter Jackson'
 },
 
 ]
+
+/*------------------------ Cached Element References ------------------------*/
 
 const questionEl = document.querySelector('#question')
 const buttonA = document.querySelector('#option-a')
@@ -220,11 +242,8 @@ console.log(buttonD)
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-
-
-/*------------------------ Cached Element References ------------------------*/
-
-
+let currPromptIdx 
+let currPrompt 
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -234,9 +253,6 @@ buttonB.addEventListener('click', handleClickButtonB)
 buttonC.addEventListener('click', handleClickButtonC)
 buttonD.addEventListener('click', handleClickButtonD)
 
-
-let currPromptIdx 
-let currPrompt 
 
 /*-------------------------------- Functions --------------------------------*/
 
