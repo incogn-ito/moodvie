@@ -10,6 +10,7 @@ body {
     background-position-x: 50%;
     background-position-y: 0;
     background-repeat: repeat-y;
+    background-repeat: repeat-x;
     background-size: cover;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
