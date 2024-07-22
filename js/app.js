@@ -154,6 +154,7 @@ const prompts = [
 
 ]
 
+
 const questionEl = document.querySelector('#question')
 const buttonA = document.querySelector('#option-a')
 const buttonB = document.querySelector('#option-b')
