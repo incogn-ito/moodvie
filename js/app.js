@@ -172,6 +172,13 @@ const movies = [
     title: 'TBD',
     director: 'TBD',
     themes: ['TBD','TBD', 'AFI']
+  },
+{
+  id: 3,
+  title: 'TBD',
+  director: 'TBD',
+  themes: ['TBD','TBD', 'AFI']
+}
 
 ]
 
