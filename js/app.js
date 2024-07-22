@@ -15,7 +15,7 @@ const prompts = [
     id: 1, // not sure
     question: 'What mood are you in?',
     options: [
-      {text: 'anxious', navigateToIdx: 5},
+      {text: 'sad', navigateToIdx: 5},
       {text: 'bored', navigateToIdx: 2},
       {text: 'angry', navigateToIdx: 6},
       {text: 'happy', navigateToIdx: 2}
@@ -23,17 +23,17 @@ const prompts = [
   },
   {
     id: 2, // up for anything
-    question: "Which character would you choose to go on an adventure?",
+    question: "You're going on an adventure. Which character would you choose?",
     options: [
       {text: 'Butch Cassidy', navigateToIdx: 1},
-      {text: 'Jobu Tupaki', navigateToIdx: 2},
+      {text: 'Jobu Tupaki', navigateToIdx: 6},
       {text: 'Aragorn', navigateToIdx: 3},
-      {text: 'Trinity', navigateToIdx: 4}
+      {text: 'Trinity', navigateToIdx: 6}
     ]
   },
   {
     id: 3, // not in the mood
-    question: 'Which television character do you love to hate most?',
+    question: 'How about television? Which TV character do you love to hate most?',
     options: [
       {text: 'Prince Joffrey', navigateToIdx: 1},
       {text: 'Nurse Ratched', navigateToIdx: 2},
@@ -43,46 +43,46 @@ const prompts = [
   },
   {
     id: 4, // i hate movies
-    question: "You lose... but you can pick another path.",
+    question: "You lose... but you can still pick a new path.",
     options: [
-      {text: 'Good Reads'},  // somehow link to Goodreads.com
-      {text: 'Home', navigateToIdx: 1}
-      // {text: 'Opt C', navigateToIdx: 3},
-      // {text: 'Opt D', navigateToIdx: 4}
+      {text: 'Good Reads', navigateToIdx: 0},  /// somehow link to Goodreads.com?????????????
+      {text: 'Back Home', navigateToIdx: 0},
+      {text: '', navigateToIdx: 3},
+      {text: '', navigateToIdx: 4} /// how do I remove buttons 
     ]
   },
   {
-    id: 5, // anxious
-    question: "Which character would you choose to accompany on an adventure?",
+    id: 5, // sad
+    question: "You're going on a journey. Which character will you choose to be?",
     options: [
-      {text: 'Opt A', navigateToIdx: 1},
-      {text: 'Opt B', navigateToIdx: 2},
-      {text: 'Opt C', navigateToIdx: 3},
-      {text: 'Opt D', navigateToIdx: 4}
+      {text: 'Luke Skywalker', navigateToIdx: 8},
+      {text: 'Harley Quinn', navigateToIdx: 7}, // fantasy
+      {text: 'Forest Gump', navigateToIdx: 9},
+      {text: 'Elle Woods', navigateToIdx: 10}
     ]
   },
   {
     id: 6, // angry
-    question: 'Which villain would you choose for an enemy?',
+    question: 'Which villain will you choose as your nemesis?',
     options: [
-      {text: 'Opt A', navigateToIdx: 1},
-      {text: 'Opt B', navigateToIdx: 2},
-      {text: 'Opt C', navigateToIdx: 3},
-      {text: 'Opt D', navigateToIdx: 4}
+      {text: 'Thanos', navigateToIdx: 7},
+      {text: 'Regina George', navigateToIdx: 2},
+      {text: 'Hannibal Lecter', navigateToIdx: 3},
+      {text: 'Hans Landa', navigateToIdx: 7}
     ]
   },
   {
-    id: 7, // 
-    question: "What character will you choose if you're",
+    id: 7, // harley quinn
+    question: "What tool will you choose to bring with you?",
     options: [
-      {text: 'Opt A', navigateToIdx: 1},
-      {text: 'Opt B', navigateToIdx: 2},
-      {text: 'Opt C', navigateToIdx: 3},
-      {text: 'Opt D', navigateToIdx: 4}
+      {text: 'Baseball bat', navigateToIdx: 10},
+      {text: 'Samurai sword', navigateToIdx: 11},
+      {text: "Thor's hammer", navigateToIdx: 10},
+      {text: 'Light saber', navigateToIdx: 11}
     ]
   },
   {
-    id: 8,
+    id: 8, //luke skywalker 
     question: '',
     options: [
       {text: 'Opt A', navigateToIdx: 1},
@@ -92,7 +92,7 @@ const prompts = [
     ]
   },
   {
-    id: 9,
+    id: 9, // james bond
     question: '',
     options: [
       {text: 'Opt A', navigateToIdx: 1},
@@ -102,7 +102,7 @@ const prompts = [
     ]
   },
   {
-    id: 10,
+    id: 10, // bat + sword
     question: '',
     options: [
       {text: 'Opt A', navigateToIdx: 1},
@@ -111,6 +111,46 @@ const prompts = [
       {text: 'Opt D', navigateToIdx: 4}
     ]
   },
+  {
+    id: 11, //
+    question: '',
+    options: [
+      {text: 'Opt A', navigateToIdx: 1},
+      {text: 'Opt B', navigateToIdx: 2},
+      {text: 'Opt C', navigateToIdx: 3},
+      {text: 'Opt D', navigateToIdx: 4}
+    ]
+  },
+  {
+    id: 12, // 
+    question: '',
+    options: [
+      {text: 'Opt A', navigateToIdx: 1},
+      {text: 'Opt B', navigateToIdx: 2},
+      {text: 'Opt C', navigateToIdx: 3},
+      {text: 'Opt D', navigateToIdx: 4}
+    ]
+  },
+  {
+    id: 13, // 
+    question: '',
+    options: [
+      {text: 'Opt A', navigateToIdx: 1},
+      {text: 'Opt B', navigateToIdx: 2},
+      {text: 'Opt C', navigateToIdx: 3},
+      {text: 'Opt D', navigateToIdx: 4}
+    ]
+  },
+  {
+    id: 14, // 
+    question: '',
+    options: [
+      {text: 'Opt A', navigateToIdx: 1},
+      {text: 'Opt B', navigateToIdx: 2},
+      {text: 'Opt C', navigateToIdx: 3},
+      {text: 'Opt D', navigateToIdx: 4}
+    ]
+  }
 
 ]
 
@@ -127,7 +167,7 @@ console.log(buttonD)
 buttonA.addEventListener('click', handleClickButtonA)
 buttonB.addEventListener('click', handleClickButtonB)
 buttonC.addEventListener('click', handleClickButtonC)
-buttonC.addEventListener('click', handleClickButtonD)
+buttonD.addEventListener('click', handleClickButtonD)
 
 
 let currPromptIdx 
