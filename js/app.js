@@ -178,7 +178,32 @@ const movies = [
   title: 'TBD',
   director: 'TBD',
   themes: ['TBD','TBD', 'AFI']
-}
+},
+,
+{
+  id: 4,
+  title: 'TBD',
+  director: 'TBD',
+  themes: ['TBD','TBD', 'AFI']
+},
+{
+  id: 5,
+  title: 'TBD',
+  director: 'TBD',
+  themes: ['TBD','TBD', 'AFI']
+},
+{
+  id: 6,
+  title: 'TBD',
+  director: 'TBD',
+  themes: ['TBD','TBD', 'AFI']
+},
+{
+  id: 7,
+  title: 'TBD',
+  director: 'TBD',
+  themes: ['TBD','TBD', 'AFI']
+},
 
 ]
 
