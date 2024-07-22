@@ -8,10 +8,10 @@ body {
     background-color: rgb(3, 87, 87);
     background-image: url(../assets/img/pexels-anniroenkae-2860804.jpg);
     background-position-x: 50%;
-    background-position-y: 0;
+    background-position-y: 50%;
     background-repeat: repeat-y;
     background-repeat: repeat-x;
-    background-size: cover;
+    background-size: 1820px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
