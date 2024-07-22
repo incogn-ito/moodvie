@@ -167,6 +167,12 @@ const movies = [
     director: 'TBD',
     themes: ['TBD','TBD', 'AFI']
   },
+  {
+    id: 2,
+    title: 'TBD',
+    director: 'TBD',
+    themes: ['TBD','TBD', 'AFI']
+
 ]
 
 const questionEl = document.querySelector('#question')
