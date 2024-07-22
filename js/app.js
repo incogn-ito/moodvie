@@ -1,4 +1,5 @@
 console.log("test")
+/*-------------------------------- Constants --------------------------------*/
 
 const prompts = [
   {
@@ -217,6 +218,17 @@ const buttonD = document.querySelector('#option-d')
 console.log(buttonA)
 console.log(buttonD)
 
+/*---------------------------- Variables (state) ----------------------------*/
+
+
+
+/*------------------------ Cached Element References ------------------------*/
+
+
+
+
+/*----------------------------- Event Listeners -----------------------------*/
+
 buttonA.addEventListener('click', handleClickButtonA)
 buttonB.addEventListener('click', handleClickButtonB)
 buttonC.addEventListener('click', handleClickButtonC)
@@ -225,6 +237,8 @@ buttonD.addEventListener('click', handleClickButtonD)
 
 let currPromptIdx 
 let currPrompt 
+
+/*-------------------------------- Functions --------------------------------*/
 
 function init() {
   currPromptIdx = 0
