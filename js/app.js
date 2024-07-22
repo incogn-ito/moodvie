@@ -154,6 +154,20 @@ const prompts = [
 
 ]
 
+const movies = [
+  {
+    id: 0,
+    title: 'Lord of the Rings',
+    director: 'Peter Jackson',
+    themes: ['fantasy','adventure', 'AFI']
+  },
+  {
+    id: 1,
+    title: 'TBD',
+    director: 'TBD',
+    themes: ['TBD','TBD', 'AFI']
+  },
+]
 
 const questionEl = document.querySelector('#question')
 const buttonA = document.querySelector('#option-a')
