@@ -1,7 +1,7 @@
 
 /* @font-face {
-    font-family: "MyCustomFont";
-    src: url(;
+    font-family: myCustomFont;
+    src: url(../assets/font/Playwright\ HR/myCustomFont);
   } */
   
 body {
@@ -20,10 +20,14 @@ body {
 
 h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;
+    font-size: 500%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 251, 251);
+    color: rgb(255, 255, 255);
+    margin: 30px;
 }
 
 h2 {
@@ -31,6 +35,10 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(94, 84, 89);
+    font-size: 30px;
+
 }
 
 .prompts {
@@ -38,8 +46,8 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    gap: 30px;
-    padding:20px;
+    gap: 20px;
+    padding:30px;
 } 
 
 #reset {
