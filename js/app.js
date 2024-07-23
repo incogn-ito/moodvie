@@ -612,9 +612,15 @@ const afiMovies = [
     theme: ['Drama', 'Animation'],
     synopsis: 'A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.',
     director: 'Brad Bird'
+  },
+  {
+    id: 60,
+    title: 'Godzilla Minus One',
+    theme: ['Action', 'Drama'],
+    synopsis: 'Post-war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.',
   }
-]
 
+]
 
 /*------------------------ Cached Element References ------------------------*/
 
