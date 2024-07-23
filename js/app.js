@@ -19,7 +19,7 @@ const prompts = [
       {text: 'nostalgic', navigateToIdx: 5},
       {text: 'bored', navigateToIdx: 2},
       {text: 'frustrated', navigateToIdx: 6},
-      {text: 'happy', navigateToIdx: 2}
+      {text: 'indecisive', navigateToIdx: 2}
     ]
   },
   {
@@ -28,28 +28,28 @@ const prompts = [
     options: [
       {text: 'Butch Cassidy', navigateToIdx: 1},
       {text: 'Jobu Tupaki', navigateToIdx: 6},
-      {text: 'Aragorn', navigateToIdx: 3},
-      {text: 'Trinity', navigateToIdx: 6}
+      {text: 'Aragorn', navigateToIdx: 6},
+      {text: 'Trinity', navigateToIdx: 8}
     ]
   },
   {
     id: 3, // not in the mood
     question: 'How about television? Which TV character do you love to hate most?',
     options: [
-      {text: 'Prince Joffrey', navigateToIdx: 1},
-      {text: 'Nurse Ratched', navigateToIdx: 2},
-      {text: 'Gus Fring', navigateToIdx: 3},
-      {text: 'Villanelle', navigateToIdx: 4}    
+      {text: 'Prince Joffrey', navigateToIdx: 11},
+      {text: 'Nurse Ratched', navigateToIdx: 12},
+      {text: 'Gus Fring', navigateToIdx: 11},
+      {text: 'Villanelle', navigateToIdx: 12}    
     ]
   },
   {
     id: 4, // i hate movies
-    question: "You lose... but you can pick a new path.",
+    question: "No fun... You lose. ",
     options: [
-      {text: 'Good Reads', navigateToIdx: 3},  /// somehow link to Goodreads.com?????????????
-      {text: '', navigateToIdx: 3},
-      {text: '', navigateToIdx: 3},
-      {text: '', navigateToIdx: 3} /// how do I remove buttons 
+      {text: 'books', navigateToIdx: 3},  // somehow link all buttons in this ID to websites. Goodreads.com, 
+      {text: 'tv', navigateToIdx: 3},
+      {text: 'comics', navigateToIdx: 3},
+      {text: 'video games', navigateToIdx: 3} /// how do I remove buttons 
     ]
   },
   {
@@ -83,7 +83,7 @@ const prompts = [
     ]
   },
   {
-    id: 8, //luke skywalker 
+    id: 8, //luke skywalker + trinity
     question: '',
     options: [
       {text: 'Opt A', navigateToIdx: 1},
