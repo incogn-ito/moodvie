@@ -165,6 +165,8 @@ const prompts = [
 
 ]
 
+// synopsis credit: imdb.com
+
 const itoLeonMovies = [
   {
     id: 0,
@@ -177,23 +179,23 @@ const itoLeonMovies = [
   {
     id: 1,
     theme: 'Fantasy',
-    title: 'Lord of the Rings',
-    synopsis: ,
-    director: 'Peter Jackson',
+    title: 'Harry Potter and the Sorcerer\'s Stone',
+    synopsis: 'An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.',
+    director: 'Chris Columbus',
     
   },
   {
     id: 2,
-    theme: 'Fantasy',
-    title: 'Lord of the Rings',
-    synopsis: ,
+    theme: 'Action',
+    title: 'Die Hard',
+    synopsis: 'A New York City cop travels to Los Angeles to reconcile with his wife but learns she\'s been taken hostage by terrorist in a skyscraper.',  
     director: 'Peter Jackson',
   },
 {
   id: 3,
-  theme: 'Fantasy',
-  title: 'Lord of the Rings',
-  synopsis: ,
+  theme: 'Family',
+  title: 'Anne of Green Gables (1985)',
+  synopsis: 'An orphan girl, sent to an elderly brother and sister by mistake, charms her new home and community with her fiery spirit and imagination.',
   director: 'Peter Jackson',
 },
 ,
@@ -201,28 +203,28 @@ const itoLeonMovies = [
   id: 4,
   theme: 'Fantasy',
   title: 'Lord of the Rings',
-  synopsis: ,
+  synopsis: '',
   director: 'Peter Jackson',
 },
 {
   id: 5,
   theme: 'Fantasy',
   title: 'Lord of the Rings',
-  synopsis: ,
+  synopsis: '',
   director: 'Peter Jackson',
 },
 {
   id: 6,
   theme: 'Fantasy',
   title: 'Lord of the Rings',
-  synopsis: ,
+  synopsis: '',
   director: 'Peter Jackson',
 },
 {
   id: 7,
   theme: 'Fantasy',
   title: 'Lord of the Rings',
-  synopsis: ,
+  synopsis: '',
   director: 'Peter Jackson'
 },
 
@@ -235,7 +237,7 @@ const buttonA = document.querySelector('#option-a')
 const buttonB = document.querySelector('#option-b')
 const buttonC = document.querySelector('#option-c')
 const buttonD = document.querySelector('#option-d')
-
+const resetBtnEl = document.querySelector('#reset')
 
 console.log(buttonA)
 console.log(buttonD)
@@ -252,7 +254,7 @@ buttonA.addEventListener('click', handleClickButtonA)
 buttonB.addEventListener('click', handleClickButtonB)
 buttonC.addEventListener('click', handleClickButtonC)
 buttonD.addEventListener('click', handleClickButtonD)
-
+resetBtnEl.addEventListener('click', init)
 
 /*-------------------------------- Functions --------------------------------*/
 
