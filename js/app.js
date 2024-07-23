@@ -231,8 +231,8 @@ const itoLeonMovies = [
   id: 8,
   theme: 'Action',
   title: 'Attack the Block',
-  synopsis: '',
-  director: 'Peter Jackson'
+  synopsis: 'A teen gang in South London defend their block from an alien invasion.',
+  director: 'Joe Cornish'
 },
 {
   id: 9,
@@ -246,67 +246,60 @@ const itoLeonMovies = [
 
 const afiMovies = [
 
-  // Animation
   {
     id: 0,
-    theme: "Animation",
-    title: "Snow White and the Seven Dwarfs (1937)",
-    synopsis: "A princess is pursued by a jealous queen and finds refuge with seven dwarfs.",
-    director: "David Hand"
-  },
-  {
+    title: "Braveheart",
+    theme: ["Biography", "Drama", "History"],
+    synopsis: "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England."
+},
+{
     id: 1,
-    theme: "Animation",
-    title: "Pinocchio (1940)",
-    synopsis: "A wooden puppet dreams of becoming a real boy.",
-    director: "Ben Sharpsteen, Hamilton Luske"
-  },
-  {
+    title: "The Help",
+    theme: ["Drama"],
+    synopsis: "An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids' point of view on the white families for which they work, and the hardships they go through on a daily basis."
+},
+{
     id: 2,
-    theme: "Animation",
-    title: "Bambi (1942)",
-    synopsis: "A young deer grows up in the forest.",
-    director: "David Hand"
-  },
-  {
+    title: "The Game",
+    theme: ["Drama", "Mystery", "Thriller"],
+    synopsis: "After a wealthy San Francisco banker is given an opportunity to participate in a mysterious game, his life is turned upside down as he begins to question if it might really be a concealed conspiracy to destroy him."
+},
+{
     id: 3,
-    theme: "Animation",
-    title: "The Lion King (1994)",
-    synopsis: "A young lion prince flees his kingdom after the murder of his father.",
-    director: "Roger Allers, Rob Minkoff"
-  },
-  {
+    title: "Spotlight",
+    theme: ["Biography", "Crime", "Drama"],
+    synopsis: "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core."
+},
+{
     id: 4,
-    theme: "Animation",
-    title: "Fantasia (1940)",
-    synopsis: "A collection of animated interpretations of great works of Western classical music.",
-    director: "Multiple Directors"
-  },
-  {
+    title: "Trainspotting",
+    theme: ["Drama"],
+    synopsis: "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends."
+},
+{
     id: 5,
-    theme: "Animation",
-    title: "Toy Story (1995)",
-    synopsis: "A cowboy doll feels threatened when a new spaceman figure supplants him as top toy.",
-    director: "John Lasseter"
-  },
+    title: "A Beautiful Mind",
+    theme: ["Biography", "Drama"],
+    synopsis: "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish."
+},
   {
     id: 6,
-    theme: "Animation",
-    title: "Beauty and the Beast (1991)",
+    title: "Beauty and the Beast",
+    theme: ["Animation"],
     synopsis: "A young woman falls in love with a prince who is transformed into a beast.",
     director: "Gary Trousdale, Kirk Wise"
   },
   {
     id: 7,
-    theme: "Animation",
-    title: "Shrek (2001)",
+    title: "Shrek",
+    theme: ["Animation"],
     synopsis: "An ogre falls in love with a princess while on a quest to save her.",
     director: "Andrew Adamson, Vicky Jenson"
   },
   {
     id: 8,
-    theme: "Animation",
-    title: "Cinderella (1950)",
+    title: "Cinderella",
+    theme: ["Animation"],
     synopsis: "A young woman is transformed into a princess with the help of her fairy godmother.",
     director: "Wilfred Jackson, Hamilton Luske, Clyde Geronimi"
   },
@@ -476,8 +469,88 @@ const afiMovies = [
     title: "Rocky (1976)",
     synopsis: "A small-time boxer gets a chance to fight a heavyweight champion in a bout.",
     director: "John G. Avildsen"
-  }
+  },
+  {
+    id: 32,
+    title: "The Godfather",
+    theme: ["Crime", "Drama"],
+    synopsis: "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
+},
+{
+    id: 33,
+    title: "Fight Club",
+    theme: ["Drama"],
+    synopsis: "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
+},
+{
+    id: 34,
+    title: "Edward Scissorhands",
+    theme: ["Drama", "Fantasy", "Romance"],
+    synopsis: "An artificial man, who was incompletely constructed and has scissors for hands, leads a solitary life. Then one day, a suburban lady meets him and introduces him to her world."
+},
+{
+    id: 35,
+    title: "Parasite",
+    theme: ["Drama", "Thriller"],
+    synopsis: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+},
+{
+    id: 36,
+    title: "The Sixth Sense",
+    theme: ["Drama", "Mystery", "Thriller"],
+    synopsis: "A frightened, withdrawn Philadelphia boy who communicates with spirits seeks the help of a disheartened child psychologist."
+},
+{
+    id: 37,
+    title: "Titanic",
+    theme: ["Drama", "Romance"],
+    synopsis: "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+},
+{
+    id: 38,
+    title: "Seven",
+    theme: ["Crime", "Drama", "Mystery"],
+    synopsis: "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives."
+},
+{
+    id: 39,
+    title: "American Beauty",
+    theme: ["Drama"],
+    synopsis: "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend."
+},
+{
+    id: 40,
+    title: "Leon",
+    theme: ["Action", "Crime", "Drama"],
+    synopsis: "12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade."
+},
+{
+    id: 41,
+    title: "Schindler's List",
+    theme: ["Biography", "Drama", "History"],
+    synopsis: "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+},
+{
+    id: 42,
+    title: "A Quiet Place",
+    theme: ["Drama", "Horror", "Sci-Fi"],
+    synopsis: "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
+},
+{
+    id: 43,
+    title: "Taxi Driver",
+    theme: ["Crime", "Drama"],
+    synopsis: "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
+},
+{
+    id: 44,
+    title: "The Shape of Water",
+    theme: ["Drama", "Fantasy", "Romance"],
+    synopsis: "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity."
+}
 ]
+
+
 
 /*------------------------ Cached Element References ------------------------*/
 
