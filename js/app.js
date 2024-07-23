@@ -14,19 +14,19 @@ const prompts = [
   },
   {
     id: 1, // not sure
-    question: 'What mood are you in?',
+    question: 'Which mood comes closest to how you currently feel?',
     options: [
       {text: 'nostalgic', navigateToIdx: 5},
       {text: 'bored', navigateToIdx: 2},
       {text: 'frustrated', navigateToIdx: 6},
-      {text: 'indecisive', navigateToIdx: 2}
+      {text: 'happy', navigateToIdx: 2}
     ]
   },
   {
     id: 2, // up for anything
     question: "You're going on an adventure. Which character would you choose?",
     options: [
-      {text: 'Butch Cassidy', navigateToIdx: 1},
+      {text: 'Butch Cassidy', navigateToIdx: 8},
       {text: 'Jobu Tupaki', navigateToIdx: 6},
       {text: 'Aragorn', navigateToIdx: 6},
       {text: 'Trinity', navigateToIdx: 8}
@@ -57,7 +57,7 @@ const prompts = [
     question: "You're going on a journey. Which character will you choose to be?",
     options: [
       {text: 'Luke Skywalker', navigateToIdx: 8},
-      {text: 'Harley Quinn', navigateToIdx: 7}, // fantasy
+      {text: 'Harley Quinn', navigateToIdx: 7}, 
       {text: 'Forest Gump', navigateToIdx: 9},
       {text: 'Elle Woods', navigateToIdx: 10}
     ]
@@ -185,7 +185,6 @@ const itoLeonMovies = [
 ]
 
 const afiMovies = [
-
   {
     id: 0,
     title: "Braveheart",
@@ -222,199 +221,169 @@ const afiMovies = [
     theme: ["Biography", "Drama"],
     synopsis: "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish."
 },
-  {
+{
     id: 6,
     title: "The Babadook",
     theme: ["Horror", "Drama"],
-    synopsis: "",
-    director: "Jennifer"
-  },
-  {
+    synopsis: "A single mother and her child fall into a deep well of paranoia when an eerie children's book titled 'Mister Babadook' manifests in their home."
+},
+{
     id: 7,
     title: "Shrek",
     theme: ["Animation"],
-    synopsis: "An ogre falls in love with a princess while on a quest to save her.",
-    director: "Andrew Adamson, Vicky Jenson"
-  },
-  {
+    synopsis: "An ogre falls in love with a princess while on a quest to save her."
+},
+{
     id: 8,
     title: "Everything Everywhere All at Once",
     theme: ["Action"],
-    synopsis: "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
-    director: "Daniel Kwan, Daniel Scheinert"
-  },
-  {
+    synopsis: "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led."
+},
+{
     id: 9,
     title: "Finding Nemo",
     theme: ["Animation"],
-    synopsis: "A father clownfish searches for his missing son.",
-    director: "Andrew Stanton"
-  },
-  {
+    synopsis: "A father clownfish searches for his missing son."
+},
+{
     id: 10,
     title: "City Lights",
     theme: ["Romance"],
-    synopsis: "A tramp falls in love with a blind girl and tries to earn money for her eye surgery.",
-    director: "Charles Chaplin"
-  },
-  {
+    synopsis: "A tramp falls in love with a blind girl and tries to earn money for her eye surgery."
+},
+{
     id: 11,
     title: "Annie Hall",
     theme: ["Romance"],
-    synopsis: "A neurotic New York comedian falls in love with a quirky woman.",
-    director: "Woody Allen"
-  },
-  {
+    synopsis: "A neurotic New York comedian falls in love with a quirky woman."
+},
+{
     id: 12,
     title: "It Happened One Night",
     theme: ["Romance"],
-    synopsis: "A spoiled heiress falls in love with a roguish reporter during a cross-country trip.",
-    director: "Frank Capra"
-  },
-  {
+    synopsis: "A spoiled heiress falls in love with a roguish reporter during a cross-country trip."
+},
+{
     id: 13,
     title: "Roman Holiday",
     theme: ["Romance"],
-    synopsis: "A princess falls in love with a reporter during a visit to Rome.",
-    director: "William Wyler"
-  },
-  {
+    synopsis: "A princess falls in love with a reporter during a visit to Rome."
+},
+{
     id: 14,
     title: "The Philadelphia Story",
     theme: ["Romance"],
-    synopsis: "A socialite's wedding plans are complicated by the arrival of her ex-husband and a reporter.",
-    director: "George Cukor"
-  },
-  {
+    synopsis: "A socialite's wedding plans are complicated by the arrival of her ex-husband and a reporter."
+},
+{
     id: 15,
     title: "When Harry Met Sally...",
     theme: ["Romance"],
-    synopsis: "Two friends question whether men and women can ever just be friends.",
-    director: "Rob Reiner"
-  },
-  {
+    synopsis: "Two friends question whether men and women can ever just be friends."
+},
+{
     id: 16,
     title: "Adam's Rib",
     theme: ["Romance"],
-    synopsis: "A husband and wife lawyer couple find themselves on opposite sides of a court case.",
-    director: "George Cukor"
-  },
-  {
+    synopsis: "A husband and wife lawyer couple find themselves on opposite sides of a court case."
+},
+{
     id: 17,
     title: "Moonstruck",
     theme: ["Romance"],
-    synopsis: "A widowed Brooklyn bookkeeper falls in love with her fiancé's estranged brother.",
-    director: "Norman Jewison"
-  },
-  {
+    synopsis: "A widowed Brooklyn bookkeeper falls in love with her fiancé's estranged brother."
+},
+{
     id: 18,
     title: "Harold and Maude",
     theme: ["Romance"],
-    synopsis: "A young man obsessed with death falls in love with a lively septuagenarian.",
-    director: "Hal Ashby"
-  },
-  {
+    synopsis: "A young man obsessed with death falls in love with a lively septuagenarian."
+},
+{
     id: 19,
     title: "Sleepless in Seattle",
     theme: ["Romance"],
-    synopsis: "A recently widowed man's son calls a radio talk show in an attempt to find his father a partner.",
-    director: "Nora Ephron"
-  },
-
-  // Western
-  {
+    synopsis: "A recently widowed man's son calls a radio talk show in an attempt to find his father a partner."
+},
+{
     id: 20,
     title: "The Searchers",
     theme: ["Western"],
-    synopsis: "A Civil War veteran embarks on a quest to rescue his niece from Comanches.",
-    director: "John Ford"
-  },
-  {
+    synopsis: "A Civil War veteran embarks on a quest to rescue his niece from Comanches."
+},
+{
     id: 21,
     title: "High Noon",
     theme: ["Western"],
-    synopsis: "A town marshal must face a gang of killers alone.",
-    director: "Fred Zinnemann"
-  },
-  {
+    synopsis: "A town marshal must face a gang of killers alone."
+},
+{
     id: 22,
     title: "Shane",
     theme: ["Western"],
-    synopsis: "A mysterious drifter helps a homestead family against a cattle baron.",
-    director: "George Stevens"
-  },
-  {
+    synopsis: "A mysterious drifter helps a homestead family against a cattle baron."
+},
+{
     id: 23,
     title: "Unforgiven",
     theme: ["Western"],
-    synopsis: "A retired gunslinger takes on one last job to help a struggling widow.",
-    director: "Clint Eastwood"
-  },
-  {
+    synopsis: "A retired gunslinger takes on one last job to help a struggling widow."
+},
+{
     id: 24,
     title: "Red River",
     theme: ["Western"],
-    synopsis: "A cattle drive turns into a confrontation between a father and his adopted son.",
-    director: "Howard Hawks"
-  },
-  {
+    synopsis: "A cattle drive turns into a confrontation between a father and his adopted son."
+},
+{
     id: 25,
     title: "The Wild Bunch",
     theme: ["Western"],
-    synopsis: "An aging outlaw gang tries to make one last big score.",
-    director: "Sam Peckinpah"
-  },
-  {
+    synopsis: "An aging outlaw gang tries to make one last big score."
+},
+{
     id: 26,
     title: "Butch Cassidy and the Sundance Kid",
     theme: ["Western"],
-    synopsis: "Two outlaws escape to Bolivia after a series of train robberies.",
-    director: "George Roy Hill"
-  },
-  {
+    synopsis: "Two outlaws escape to Bolivia after a series of train robberies."
+},
+{
     id: 27,
     title: "McCabe & Mrs. Miller",
     theme: ["Western"],
-    synopsis: "A gambler and a prostitute form a business partnership in a remote mining town.",
-    director: "Robert Altman"
-  },
-  {
+    synopsis: "A gambler and a prostitute form a business partnership in a remote mining town."
+},
+{
     id: 28,
     title: "Stagecoach",
     theme: ["Western"],
-    synopsis: "A group of travelers journey through dangerous territory in a stagecoach.",
-    director: "John Ford"
-  },
-  {
+    synopsis: "A group of travelers journey through dangerous territory in a stagecoach."
+},
+{
     id: 29,
     title: "Cat Ballou",
     theme: ["Western"],
-    synopsis: "A schoolteacher turns outlaw to avenge her father's murder.",
-    director: "Elliot Silverstein"
-  },
-
-  // Sports
-  {
+    synopsis: "A schoolteacher turns outlaw to avenge her father's murder."
+},
+{
     id: 30,
     title: "Raging Bull",
     theme: ["Sports", "Drama"],
-    synopsis: "The life of boxer Jake LaMotta, whose violence and temper led him to the top in the ring and destroyed his life outside it.",
-    director: "Martin Scorsese"
-  },
-  {
+    synopsis: "The life of boxer Jake LaMotta, whose violence and temper led him to the top in the ring and destroyed his life outside it."
+},
+{
     id: 31,
     title: "Rocky",
     theme: ["Sports", "Drama"],
-    synopsis: "A small-time boxer gets a chance to fight a heavyweight champion in a bout.",
-    director: "John G. Avildsen"
-  },
-  {
+    synopsis: "A small-time boxer gets a chance to fight a heavyweight champion in a bout."
+},
+{
     id: 32,
     title: "The Godfather",
     theme: ["Crime", "Drama"],
     synopsis: "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
-  },
-  {
+},
+{
     id: 33,
     title: "Fight Club",
     theme: ["Drama"],
@@ -455,7 +424,7 @@ const afiMovies = [
     title: "American Beauty",
     theme: ["Drama"],
     synopsis: "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend."
-  },
+},  
   {
     id: 40,
     title: "Leon",
@@ -496,128 +465,105 @@ const afiMovies = [
     id: 44,
     title: "The Shape of Water",
     theme: ["Drama", "Fantasy", "Romance"],
-    synopsis: "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity."
+    synopsis: 'At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity'
   },
   // ito and leon list of movies
   {
     id: 45,
     title: 'Lord of the Rings',
     theme: ['Fantasy'],
-    synopsis: 'A mighty wizard leads a reluctant band of men, hobbits, a dwarf, and an elf on a terrifying quest to destroy the One Ring before an ancient evil god becomes manifest and destroys all Middle-Earth.',
-    director: 'Peter Jackson',
-    
+    synopsis: 'A mighty wizard leads a reluctant band of men, hobbits, a dwarf, and an elf on a terrifying quest to destroy the One Ring before an ancient evil god becomes manifest and destroys all Middle-Earth.',    
   },
   {
     id: 46,
     title: 'Harry Potter and the Sorcerer\'s Stone',
     theme: ['Fantasy'],
-    synopsis: 'An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.',
-    director: 'Chris Columbus',
-    
+    synopsis: 'An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.'    
   },
   {
     id: 47,
     title: 'Die Hard',
     theme: ['Action'],
     synopsis: 'A New York City cop travels to Los Angeles to reconcile with his wife but learns she\'s been taken hostage by terrorist in a skyscraper.',  
-    director: 'John McTiernan',
   },
   {
   id: 48,
   title: 'Anne of Green Gables',
   theme: ['Drama', 'Romance'],
   synopsis: 'An orphan girl, sent to an elderly brother and sister by mistake, charms her new home and community with her fiery spirit and imagination.',
-  director: 'Kevin Sullivan',
   },
   {
     id: 49,
     title: 'Past Lives',
     theme: ['Drama', 'Romance'],
     synopsis: 'Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora\'s family emigrates from South Korea. Two decades later, they are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life, in this heartrending modern romance.',
-    director: 'Celine Song',
   },
   {
     id: 50,
     title: 'Shawshank Redemption',
     theme: ['Drama', 'Crime'],
     synopsis: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
-    director: 'Frank Darabont',
   },
   {
     id: 51,
     title: 'Bourne Identity',
     theme: ['Action'],
     synopsis: 'A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and attempting to regain his memory.',
-    director: 'Doug Liman',
   },
   {
     id: 52,
     title: 'Dark Knight',
     theme: ['Action'],
     synopsis: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.',
-    director: 'Christopher Nolan'
   },
   {
     id: 53,
     title: 'Attack the Block',
     theme: ['Action'],
     synopsis: 'A teen gang in South London defend their block from an alien invasion.',
-    director: 'Joe Cornish'
   },
   {
     id: 54,
     title: 'Spiderman: Into the Spiderverse',
     theme: ['Animation'],
     synopsis: 'Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.',
-    director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman'
   },
   {
     id: 55,
     title: 'The Great Escape',
     theme: ['Drama', 'History'],
     synopsis: 'Allied prisoners of war plan for several hundred of their men to escape from a German camp during World War II.',
-    director: 'John Sturges'
   },
   {
     id: 56,
     title: 'The Thing',
     theme: ['Sci-Fi', 'Horror'],
     synopsis: 'A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.',
-    director: 'John Carpenter'
   },
   {
     id: 57,
     title: 'Alien',
     theme: ['Sci-Fi', 'Horror'],
     synopsis: 'The crew of a commercial spacecraft encounters a deadly lifeform after investigating a mysterious transmission of unknown origin.',
-    director: 'Ridley Scott'
   },
   {
     id: 58,
     title: 'Life Is Beautiful',
     theme: ['Drama', 'History'],
     synopsis: 'When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.',
-    director: 'Robert Benigni'
   },
   {
     id: 59,
     title: 'The Iron Giant',
     theme: ['Drama', 'Animation'],
     synopsis: 'A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.',
-    director: 'Brad Bird'
-  },
-  {
-    id: 59,
-    title: 'The Iron Giant',
-    theme: ['Drama', 'Animation'],
-    synopsis: 'A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.',
-    director: 'Brad Bird'
+   
   },
   {
     id: 60,
     title: 'Godzilla Minus One',
     theme: ['Action', 'Drama'],
-    synopsis: 'Post-war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.',
+    synopsis: 'Post-war Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.'
   }
 
 ]
