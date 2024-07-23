@@ -49,6 +49,7 @@ h2 {
     font-size: 200%;
     font-family: 'Oswald';
     margin: 10px;
+    text-align: center;
 }
 
 .prompts {
@@ -59,6 +60,7 @@ h2 {
     padding: 10px;
     font-family: 'Oswald';
     margin-bottom: 10px;
+    justify-content: center;
 } 
 
 #reset {
@@ -74,6 +76,7 @@ h2 {
     align-items: center;
     padding: 15px;
     size: 10%;
+    justify-content: center;
 }
 
 #option-a {
