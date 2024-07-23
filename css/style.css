@@ -21,14 +21,43 @@ body {
 h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 300%;
-
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-/*  */
+h2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
-/* .prompts {
-   display: flex 
-} */
+.prompts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding:20px;
+} 
+
+#reset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.television {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+}
+
 
 
 
