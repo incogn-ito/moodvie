@@ -305,80 +305,78 @@ const afiMovies = [
   },
   {
     id: 9,
-    theme: "Animation",
-    title: "Finding Nemo (2003)",
+    title: "Finding Nemo",
+    theme: ["Animation"],
     synopsis: "A father clownfish searches for his missing son.",
     director: "Andrew Stanton"
   },
-  
-  // Romantic Comedy
   {
     id: 10,
-    theme: "Romantic Comedy",
-    title: "City Lights (1931)",
+    title: "City Lights",
+    theme: ["Romance"],
     synopsis: "A tramp falls in love with a blind girl and tries to earn money for her eye surgery.",
     director: "Charles Chaplin"
   },
   {
     id: 11,
-    theme: "Romantic Comedy",
-    title: "Annie Hall (1977)",
+    title: "Annie Hall",
+    theme: ["Romance"],
     synopsis: "A neurotic New York comedian falls in love with a quirky woman.",
     director: "Woody Allen"
   },
   {
     id: 12,
-    theme: "Romantic Comedy",
-    title: "It Happened One Night (1934)",
+    title: "It Happened One Night",
+    theme: ["Romance"],
     synopsis: "A spoiled heiress falls in love with a roguish reporter during a cross-country trip.",
     director: "Frank Capra"
   },
   {
     id: 13,
-    theme: "Romantic Comedy",
-    title: "Roman Holiday (1953)",
+    title: "Roman Holiday",
+    theme: ["Romance"],
     synopsis: "A princess falls in love with a reporter during a visit to Rome.",
     director: "William Wyler"
   },
   {
     id: 14,
-    theme: "Romantic Comedy",
-    title: "The Philadelphia Story (1940)",
+    title: "The Philadelphia Story",
+    theme: ["Romance"],
     synopsis: "A socialite's wedding plans are complicated by the arrival of her ex-husband and a reporter.",
     director: "George Cukor"
   },
   {
     id: 15,
-    theme: "Romantic Comedy",
-    title: "When Harry Met Sally... (1989)",
+    title: "When Harry Met Sally...",
+    theme: ["Romance"],
     synopsis: "Two friends question whether men and women can ever just be friends.",
     director: "Rob Reiner"
   },
   {
     id: 16,
-    theme: "Romantic Comedy",
-    title: "Adam's Rib (1949)",
+    title: "Adam's Rib",
+    theme: ["Romance"],
     synopsis: "A husband and wife lawyer couple find themselves on opposite sides of a court case.",
     director: "George Cukor"
   },
   {
     id: 17,
-    theme: "Romantic Comedy",
-    title: "Moonstruck (1987)",
+    title: "Moonstruck",
+    theme: ["Romance"],
     synopsis: "A widowed Brooklyn bookkeeper falls in love with her fiancé's estranged brother.",
     director: "Norman Jewison"
   },
   {
     id: 18,
-    theme: "Romantic Comedy",
-    title: "Harold and Maude (1971)",
+    title: "Harold and Maude",
+    theme: ["Romance"],
     synopsis: "A young man obsessed with death falls in love with a lively septuagenarian.",
     director: "Hal Ashby"
   },
   {
     id: 19,
-    theme: "Romantic Comedy",
-    title: "Sleepless in Seattle (1993)",
+    title: "Sleepless in Seattle",
+    theme: ["Romance"],
     synopsis: "A recently widowed man's son calls a radio talk show in an attempt to find his father a partner.",
     director: "Nora Ephron"
   },
@@ -386,71 +384,71 @@ const afiMovies = [
   // Western
   {
     id: 20,
-    theme: "Western",
-    title: "The Searchers (1956)",
+    title: "The Searchers",
+    theme: ["Western"],
     synopsis: "A Civil War veteran embarks on a quest to rescue his niece from Comanches.",
     director: "John Ford"
   },
   {
     id: 21,
-    theme: "Western",
-    title: "High Noon (1952)",
+    title: "High Noon",
+    theme: ["Western"],
     synopsis: "A town marshal must face a gang of killers alone.",
     director: "Fred Zinnemann"
   },
   {
     id: 22,
-    theme: "Western",
-    title: "Shane (1953)",
+    title: "Shane",
+    theme: ["Western"],
     synopsis: "A mysterious drifter helps a homestead family against a cattle baron.",
     director: "George Stevens"
   },
   {
     id: 23,
-    theme: "Western",
-    title: "Unforgiven (1992)",
+    title: "Unforgiven",
+    theme: ["Western"],
     synopsis: "A retired gunslinger takes on one last job to help a struggling widow.",
     director: "Clint Eastwood"
   },
   {
     id: 24,
-    theme: "Western",
-    title: "Red River (1948)",
+    title: "Red River",
+    theme: ["Western"],
     synopsis: "A cattle drive turns into a confrontation between a father and his adopted son.",
     director: "Howard Hawks"
   },
   {
     id: 25,
-    theme: "Western",
-    title: "The Wild Bunch (1969)",
+    title: "The Wild Bunch",
+    theme: ["Western"],
     synopsis: "An aging outlaw gang tries to make one last big score.",
     director: "Sam Peckinpah"
   },
   {
     id: 26,
-    theme: "Western",
-    title: "Butch Cassidy and the Sundance Kid (1969)",
+    title: "Butch Cassidy and the Sundance Kid",
+    theme: ["Western"],
     synopsis: "Two outlaws escape to Bolivia after a series of train robberies.",
     director: "George Roy Hill"
   },
   {
     id: 27,
-    theme: "Western",
-    title: "McCabe & Mrs. Miller (1971)",
+    title: "McCabe & Mrs. Miller",
+    theme: ["Western"],
     synopsis: "A gambler and a prostitute form a business partnership in a remote mining town.",
     director: "Robert Altman"
   },
   {
     id: 28,
-    theme: "Western",
-    title: "Stagecoach (1939)",
+    title: "Stagecoach",
+    theme: ["Western"],
     synopsis: "A group of travelers journey through dangerous territory in a stagecoach.",
     director: "John Ford"
   },
   {
     id: 29,
-    theme: "Western",
-    title: "Cat Ballou (1965)",
+    title: "Cat Ballou",
+    theme: ["Western"],
     synopsis: "A schoolteacher turns outlaw to avenge her father's murder.",
     director: "Elliot Silverstein"
   },
@@ -458,15 +456,15 @@ const afiMovies = [
   // Sports
   {
     id: 30,
-    theme: "Sports",
-    title: "Raging Bull (1980)",
+    title: "Raging Bull",
+    theme: ["Sports", "Drama"],
     synopsis: "The life of boxer Jake LaMotta, whose violence and temper led him to the top in the ring and destroyed his life outside it.",
     director: "Martin Scorsese"
   },
   {
     id: 31,
-    theme: "Sports",
-    title: "Rocky (1976)",
+    title: "Rocky",
+    theme: ["Sports", "Drama"],
     synopsis: "A small-time boxer gets a chance to fight a heavyweight champion in a bout.",
     director: "John G. Avildsen"
   },
