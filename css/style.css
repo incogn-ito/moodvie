@@ -1,4 +1,12 @@
 
+@font-face {
+    font-family: 'Playwrite HR';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playwritehr/v1/WWXAljmQYQCZM5qaU_dwQYcybAQ7GFn1mFNJPsoB9YLXAHC6vvg.woff) format('woff');
+  }
+  
 body {
     background-color: rgb(3, 87, 87);
     background-image: url(../assets/img/pexels-anniroenkae-2860804.jpg);
@@ -14,14 +22,14 @@ body {
 }
 
 h1 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playwrite HR';
     font-size: 500%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(255, 251, 251);
-    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: rgb(253, 253, 253);
+    color: rgb(243, 239, 239);
     margin: 30px;
 }
 
@@ -33,7 +41,6 @@ h2 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(94, 84, 89);
     font-size: 30px;
-
 }
 
 .prompts {
