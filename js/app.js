@@ -163,85 +163,25 @@ const prompts = [
     ]
   }
 
+
 ]
 
-// synopsis credit: imdb.com and AFI.com
+/*
+synopsis credit: imdb.com and AFI.com
 
+categories:
+nostalgic/sad:
+Romance, Western, Fantasy, Animation
+
+Frustrated:
+Crime, Action, Sci-fi, Horror, Drama
+
+Up for anything: (all categories x animation)
+History, Biography, Horror, Action, Sci-fi, Crime, Drama
+
+*/
 const itoLeonMovies = [
-  {
-    id: 0,
-    theme: 'Fantasy',
-    title: 'Lord of the Rings',
-    synopsis: 'A mighty wizard leads a reluctant band of men, hobbits, a dwarf, and an elf on a terrifying quest to destroy the One Ring before an ancient evil god becomes manifest and destroys all Middle-Earth.',
-    director: 'Peter Jackson',
-    
-  },
-  {
-    id: 1,
-    theme: 'Fantasy',
-    title: 'Harry Potter and the Sorcerer\'s Stone',
-    synopsis: 'An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.',
-    director: 'Chris Columbus',
-    
-  },
-  {
-    id: 2,
-    theme: 'Action',
-    title: 'Die Hard',
-    synopsis: 'A New York City cop travels to Los Angeles to reconcile with his wife but learns she\'s been taken hostage by terrorist in a skyscraper.',  
-    director: 'John McTiernan',
-  },
-{
-  id: 3,
-  theme: 'Family',
-  title: 'Anne of Green Gables (1985)',
-  synopsis: 'An orphan girl, sent to an elderly brother and sister by mistake, charms her new home and community with her fiery spirit and imagination.',
-  director: 'Kevin Sullivan',
-},
-,
-{
-  id: 4,
-  theme: 'Drama',
-  title: 'Past Lives',
-  synopsis: 'Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora\'s family emigrates from South Korea. Two decades later, they are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life, in this heartrending modern romance.',
-  director: 'Celine Song',
-},
-{
-  id: 5,
-  theme: 'Drama ',
-  title: 'Shawshank Redemption',
-  synopsis: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
-  director: 'Frank Darabont',
-},
-{
-  id: 6,
-  theme: 'Action',
-  title: 'Bourne Identity',
-  synopsis: 'A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and attempting to regain his memory.',
-  director: 'Doug Liman',
-},
-{
-  id: 7,
-  theme: 'Action',
-  title: 'Dark Knight',
-  synopsis: '',
-  director: 'Christopher Nolan'
-},
-{
-  id: 8,
-  theme: 'Action',
-  title: 'Attack the Block',
-  synopsis: 'A teen gang in South London defend their block from an alien invasion.',
-  director: 'Joe Cornish'
-},
-{
-  id: 9,
-  theme: 'Animation',
-  title: 'Spiderman: Into the Spiderverse',
-  synopsis: '',
-  director: 'Peter Jackson'
-},
-
+  
 ]
 
 const afiMovies = [
@@ -284,10 +224,10 @@ const afiMovies = [
 },
   {
     id: 6,
-    title: "Beauty and the Beast",
-    theme: ["Animation"],
-    synopsis: "A young woman falls in love with a prince who is transformed into a beast.",
-    director: "Gary Trousdale, Kirk Wise"
+    title: "The Babadook",
+    theme: ["Horror", "Drama"],
+    synopsis: "",
+    director: "Jennifer"
   },
   {
     id: 7,
@@ -298,10 +238,10 @@ const afiMovies = [
   },
   {
     id: 8,
-    title: "Cinderella",
-    theme: ["Animation"],
-    synopsis: "A young woman is transformed into a princess with the help of her fairy godmother.",
-    director: "Wilfred Jackson, Hamilton Luske, Clyde Geronimi"
+    title: "Everything Everywhere All at Once",
+    theme: ["Action"],
+    synopsis: "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+    director: "Daniel Kwan, Daniel Scheinert"
   },
   {
     id: 9,
@@ -473,8 +413,8 @@ const afiMovies = [
     title: "The Godfather",
     theme: ["Crime", "Drama"],
     synopsis: "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
-},
-{
+  },
+  {
     id: 33,
     title: "Fight Club",
     theme: ["Drama"],
@@ -515,8 +455,8 @@ const afiMovies = [
     title: "American Beauty",
     theme: ["Drama"],
     synopsis: "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend."
-},
-{
+  },
+  {
     id: 40,
     title: "Leon",
     theme: ["Action", "Crime", "Drama"],
@@ -525,29 +465,155 @@ const afiMovies = [
 {
     id: 41,
     title: "Schindler's List",
-    theme: ["Biography", "Drama", "History"],
+    theme: ["Biography", "Drama", "History", "Horror"],
     synopsis: "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
-},
-{
+  },
+  {
     id: 42,
     title: "A Quiet Place",
     theme: ["Drama", "Horror", "Sci-Fi"],
     synopsis: "In a post-apocalyptic world, a family is forced to live in silence while hiding from monsters with ultra-sensitive hearing."
-},
-{
+  },
+  {
     id: 43,
     title: "Taxi Driver",
     theme: ["Crime", "Drama"],
     synopsis: "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
-},
-{
+  },
+  {
     id: 44,
     title: "The Shape of Water",
     theme: ["Drama", "Fantasy", "Romance"],
     synopsis: "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity."
-}
+  },
+  {
+    id: 44,
+    title: "The Shape of Water",
+    theme: ["Drama", "Fantasy", "Romance"],
+    synopsis: "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity."
+  },
+  {
+    id: 44,
+    title: "The Shape of Water",
+    theme: ["Drama", "Fantasy", "Romance"],
+    synopsis: "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity."
+  },
+  // ito and leon list of movies
+  {
+    id: 45,
+    title: 'Lord of the Rings',
+    theme: ['Fantasy'],
+    synopsis: 'A mighty wizard leads a reluctant band of men, hobbits, a dwarf, and an elf on a terrifying quest to destroy the One Ring before an ancient evil god becomes manifest and destroys all Middle-Earth.',
+    director: 'Peter Jackson',
+    
+  },
+  {
+    id: 46,
+    title: 'Harry Potter and the Sorcerer\'s Stone',
+    theme: ['Fantasy'],
+    synopsis: 'An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.',
+    director: 'Chris Columbus',
+    
+  },
+  {
+    id: 47,
+    title: 'Die Hard',
+    theme: ['Action'],
+    synopsis: 'A New York City cop travels to Los Angeles to reconcile with his wife but learns she\'s been taken hostage by terrorist in a skyscraper.',  
+    director: 'John McTiernan',
+  },
+  {
+  id: 48,
+  title: 'Anne of Green Gables',
+  theme: ['Drama', 'Romance'],
+  synopsis: 'An orphan girl, sent to an elderly brother and sister by mistake, charms her new home and community with her fiery spirit and imagination.',
+  director: 'Kevin Sullivan',
+  },
+  {
+    id: 49,
+    title: 'Past Lives',
+    theme: ['Drama', 'Romance'],
+    synopsis: 'Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora\'s family emigrates from South Korea. Two decades later, they are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life, in this heartrending modern romance.',
+    director: 'Celine Song',
+  },
+  {
+    id: 50,
+    title: 'Shawshank Redemption',
+    theme: ['Drama', 'Crime'],
+    synopsis: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
+    director: 'Frank Darabont',
+  },
+  {
+    id: 51,
+    title: 'Bourne Identity',
+    theme: ['Action'],
+    synopsis: 'A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and attempting to regain his memory.',
+    director: 'Doug Liman',
+  },
+  {
+    id: 52,
+    title: 'Dark Knight',
+    theme: ['Action'],
+    synopsis: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.',
+    director: 'Christopher Nolan'
+  },
+  {
+    id: 53,
+    title: 'Attack the Block',
+    theme: ['Action'],
+    synopsis: 'A teen gang in South London defend their block from an alien invasion.',
+    director: 'Joe Cornish'
+  },
+  {
+    id: 54,
+    title: 'Spiderman: Into the Spiderverse',
+    theme: ['Animation'],
+    synopsis: 'Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.',
+    director: 'Bob Persichetti, Peter Ramsey, Rodney Rothman'
+  },
+  {
+    id: 55,
+    title: 'The Great Escape',
+    theme: ['Drama', 'History'],
+    synopsis: 'Allied prisoners of war plan for several hundred of their men to escape from a German camp during World War II.',
+    director: 'John Sturges'
+  },
+  {
+    id: 56,
+    title: 'The Thing',
+    theme: ['Sci-Fi', 'Horror'],
+    synopsis: 'A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.',
+    director: 'John Carpenter'
+  },
+  {
+    id: 57,
+    title: 'Alien',
+    theme: ['Sci-Fi', 'Horror'],
+    synopsis: 'The crew of a commercial spacecraft encounters a deadly lifeform after investigating a mysterious transmission of unknown origin.',
+    director: 'Ridley Scott'
+  },
+  {
+    id: 58,
+    title: 'Life Is Beautiful',
+    theme: ['Drama', 'History'],
+    synopsis: 'When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.',
+    director: 'Robert Benigni'
+  },
+  {
+    id: 59,
+    title: 'The Iron Giant',
+    theme: ['Drama', 'Animation'],
+    synopsis: 'A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.',
+    director: 'Brad Bird'
+  },
+  {
+    id: 59,
+    title: 'The Iron Giant',
+    theme: ['Drama', 'Animation'],
+    synopsis: 'A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.',
+    director: 'Brad Bird'
+  }
 ]
-
 
 
 /*------------------------ Cached Element References ------------------------*/
