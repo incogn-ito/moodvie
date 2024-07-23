@@ -44,12 +44,12 @@ const prompts = [
   },
   {
     id: 4, // i hate movies
-    question: "No fun... You lose. ",
+    question: 'You lose, but can still choose a different path.',
     options: [
-      {text: 'books', navigateToIdx: 3},  // somehow link all buttons in this ID to websites. Goodreads.com, 
-      {text: 'tv', navigateToIdx: 3},
-      {text: 'comics', navigateToIdx: 3},
-      {text: 'video games', navigateToIdx: 3} /// how do I remove buttons 
+      {text: 'books'},  // somehow link all buttons in this ID to websites. Goodreads.com, 
+      {text: 'tv'},
+      {text: 'comics'},
+      {text: 'video games'} /// how do I remove buttons 
     ]
   },
   {
