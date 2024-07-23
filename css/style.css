@@ -26,10 +26,10 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    justify-items: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -40,6 +40,7 @@ h1 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(253, 253, 253);
     color: rgb(243, 239, 239);
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -52,19 +53,18 @@ h2 {
 
 .prompts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     gap: 20px;
     padding: 10px;
     font-family: 'Oswald';
+    margin-bottom: 10px;
 } 
 
 #reset {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .television {
@@ -110,9 +110,10 @@ h2 {
 #reset {
     display: flex;
     font-family: 'Oswald';
-    font-size: 25px;
+    font-size: 150%;
     background-color: #ae6eb4;
     color: white;
+    border-radius: 10%;
 }
 	
 	
