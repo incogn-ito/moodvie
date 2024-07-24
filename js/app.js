@@ -84,7 +84,7 @@ const prompts = [
   },
   {
     id: 8, //luke skywalker + trinity
-    question: '',
+    question: 'Which character ',
     options: [
       {text: 'Opt A', navigateToIdx: 1},
       {text: 'Opt B', navigateToIdx: 2},
