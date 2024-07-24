@@ -34,7 +34,7 @@ body {
 
 h1 {
     font-family: 'Playwrite HR';
-    font-size: 400%;
+    font-size: 50px;
     display: flex;
     align-items: center;
     -webkit-text-stroke-width: 1px;
@@ -46,7 +46,7 @@ h1 {
 h2 {
     display: flex;
     flex-wrap: wrap;
-    font-size: 200%;
+    font-size: 30px;
     font-family: 'Oswald';
     margin: 10px;
     text-align: center;
