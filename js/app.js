@@ -17,19 +17,19 @@ const prompts = [
     question: 'Which mood comes closest to how you currently feel?',
     options: [
       {text: 'nostalgic', navigateToIdx: 5},
-      {text: 'bored', navigateToIdx: 2},
+      {text: 'bored', navigateToIdx: 8},
       {text: 'frustrated', navigateToIdx: 6},
-      {text: 'happy', navigateToIdx: 2}
+      {text: 'content', navigateToIdx: 2}
     ]
   },
   {
-    id: 2, // up for anything
-    question: "You're going on an adventure. Which character would you choose?",
+    id: 2, 
+    question: "Which mood comes closest to how you currently feel?",
     options: [
-      {text: 'Butch Cassidy', navigateToIdx: 8},
-      {text: 'Jobu Tupaki', navigateToIdx: 6},
-      {text: 'Aragorn', navigateToIdx: 6},
-      {text: 'Trinity', navigateToIdx: 8}
+      {text: 'excited', navigateToIdx: 5},
+      {text: 'nervous', navigateToIdx: 8},
+      {text: 'optimistic', navigateToIdx: 5},
+      {text: 'stressed', navigateToIdx: 8}
     ]
   },
   {
@@ -56,15 +56,15 @@ const prompts = [
     id: 5, // nostalgic
     question: "You're going on a journey. Which character will you choose to be?",
     options: [
-      {text: 'Luke Skywalker', navigateToIdx: 8},
-      {text: 'Harley Quinn', navigateToIdx: 7}, 
+      {text: 'Luke Skywalker', navigateToIdx: 7},
+      {text: 'Harley Quinn', navigateToIdx: 8}, 
       {text: 'Forest Gump', navigateToIdx: 9},
       {text: 'Elle Woods', navigateToIdx: 10}
     ]
   },
   {
     id: 6, // frustrated
-    question: 'Which villain will you choose as your nemesis?',
+    question: 'You\'re going on a journey, which villain will you choose as your arch enemy?',
     options: [
       {text: 'Thanos', navigateToIdx: 7},
       {text: 'Regina George', navigateToIdx: 2},
@@ -73,23 +73,23 @@ const prompts = [
     ]
   },
   {
-    id: 7, // harley quinn
+    id: 7, // luke sky, forest gump
     question: "What tool will you choose to bring with you?",
     options: [
       {text: 'Baseball bat', navigateToIdx: 10},
       {text: 'Samurai sword', navigateToIdx: 11},
-      {text: "Thor's hammer", navigateToIdx: 10},
+      {text: "Running shoes", navigateToIdx: 10},
       {text: 'Light saber', navigateToIdx: 11}
     ]
   },
   {
-    id: 8, //luke skywalker + trinity
-    question: 'Which character ',
+    id: 8, //  
+    question: "You're going on an adventure. Which character would you choose?",
     options: [
-      {text: 'Opt A', navigateToIdx: 1},
-      {text: 'Opt B', navigateToIdx: 2},
-      {text: 'Opt C', navigateToIdx: 3},
-      {text: 'Opt D', navigateToIdx: 4}
+      {text: 'Butch Cassidy', navigateToIdx: 8},
+      {text: 'Jobu Tupaki', navigateToIdx: 6},
+      {text: 'Aragorn', navigateToIdx: 6},
+      {text: 'Trinity', navigateToIdx: 8}
     ]
   },
   {
