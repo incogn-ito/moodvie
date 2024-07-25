@@ -9,7 +9,7 @@ const prompts = [
         {text: 'Forest Gump', navigateToIdx: 4},
         {text: 'Elle Woods', navigateToIdx: 5}
       ],
-      questionImg: '../assets/img/img0.png'
+      questionImg: 'assets/img/img0.png'
     },
     {
       id: 1, // mood-2 (sad)
@@ -20,7 +20,7 @@ const prompts = [
         {text: 'Dumbledore', navigateToIdx: 6},
         {text: 'Morpheus', navigateToIdx: 7}
       ],
-      questionImg: '../assets/img/img1.png'
+      questionImg: 'assets/img/img1.png'
     },
     {
       id: 2, // mood-3 (frustrated)
