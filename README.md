@@ -3,7 +3,7 @@
 # Moodvie  
 
 ## Description:
-Moodvie is a choose-your-own-adventure meets personalized movie generator game. When you don’t know what to watch next, Moodvie can help you find your new or old favorite flick. I love watching movies, so I was excited to find a way to incorporate some of my favorite characters into my Unit 1 project in a creative way. 
+Moodvie is a choose-your-own-adventure meets personalized movie generator game. When you don’t know what to watch next, Moodvie can help you find your new or old favorite flick. I love watching movies, so I was excited to find a way to incorporate some of my favorite characters into this project in a creative way. 
 
 ## How to Play:
 1. Click "ready/start"
