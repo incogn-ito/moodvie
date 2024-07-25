@@ -2,7 +2,7 @@
 const prompts = [
     {
       id: 0,
-      question: 'What movie are you in the mood for?',
+      question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
         {text: 'not sure', navigateToIdx: 1},
         {text: 'up for anything', navigateToIdx: 2},

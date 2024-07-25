@@ -42,40 +42,67 @@ body {
 }
 
 #main-logo {
-    width: 650px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.mood-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mood-container > img {
+    width: 250px;
+    margin: 20px;
+    border-radius: 10%;
+    background-color: #f38cfc;
+    padding: 10px;
+    
+  
 }
 
 h1 {
     font-family: 'Chango';
-    font-size: 45px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(9, 0, 0);
-    color: rgb(243, 239, 239);
-    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(40, 3, 42); */
 }
 
 h2 {
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 25
+    px;
     font-family: 'Oswald';
     margin: 10px;
     text-align: center;
 }
 
 #prompts > img {
-    height: 200px;
-    width: 200px;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-    row-gap: 50px;
-    padding: 10px;
-    /* margin-bottom: 0px;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* row-gap: 50px; */
+    padding: 5px;
+    margin-bottom: 0px;
     margin-top: 0px;
-    justify-content: center; */
+    justify-content: center;
 } 
 
 #reset {
@@ -87,21 +114,11 @@ h2 {
     justify-content: center;
 } 
 
-#television {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 15px;
-    size: 10%;
-    justify-content: center;
-    margin-top: 0;
-}
 
 #option-a {
     display: flex;
     font-family: 'Oswald';
-    font-size: 150%;
+    font-size: 25px;
     background-color: #285c69;
     color: white;
     border-radius: 10%;
@@ -110,7 +127,7 @@ h2 {
 #option-b {
     display: flex;
     font-family: 'Oswald';
-    font-size: 150%;
+    font-size: 25px;
     background-color: rgb(164, 34, 136);
     color: white;
     border-radius: 10%;
@@ -118,7 +135,7 @@ h2 {
 #option-c {
     display: flex;
     font-family: 'Oswald';
-    font-size: 150%;
+    font-size: 25px;
     background-color: rgb(140, 144, 133);
     color: white;
     border-radius: 10%;
@@ -127,7 +144,7 @@ h2 {
 #option-d {
     display: flex;
     font-family: 'Oswald';
-    font-size: 150%;
+    font-size: 25px;
     background-color: rgb(45, 46, 47);
     color: white;
     border-radius: 10%;
