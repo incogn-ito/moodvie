@@ -68,7 +68,7 @@ function init() {
   // currPromptIdx = 0
   // currPrompt = prompts[currPromptIdx]
   // console.log(currPromptIdx, selectedPrompts)
-  render()
+  // render()
 }
 
 function displayMoodsSelection() {
@@ -83,34 +83,29 @@ function displayQuizContainer() {
 } 
 
 function handleSelectMood(evt) {
-  // console.log(evt.target)
-  // console.log(questionImg.src) 
   currPromptIdx = 0
   currPrompt = prompts[currPromptIdx]
   console.log(currPrompt)
-  questionImg.src = currPrompt.questionImg
   if (evt.target.id === 'mood-1') {
     currPrompt = prompts[0] 
+    questionImg.src = currPrompt.questionImg
   } else if (evt.target.id === 'mood-2') {
     currPrompt = prompts[1]
+    questionImg.src = currPrompt.questionImg
   } else if (evt.target.id === 'mood-3') {
     currPrompt = prompts[2]
+    questionImg.src = currPrompt.questionImg
   } else if (evt.target.id === 'mood-4') {
     currPrompt = prompts[3]
+    questionImg.src = currPrompt.questionImg
   } else {
     return
   }
   displayQuizContainer()
-  currPrompt = prompts[currPromptIdx]
   console.log(currPrompt)
-
   render()
 }
-  // 
-  // render()
- 
-
-
+  
 function render() {
   questionEl.textContent = currPrompt.question
   buttonA.textContent = currPrompt.options[0].text
