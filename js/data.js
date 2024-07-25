@@ -4,10 +4,10 @@ const prompts = [
       id: 0,
       question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
-        {text: 'not sure', navigateToIdx: 1},
-        {text: 'up for anything', navigateToIdx: 2},
-        {text: 'not in the mood', navigateToIdx: 3},
-        {text: 'i hate movies', navigateToIdx: 4}
+        {text: '', navigateToIdx: 1},
+        {text: '', navigateToIdx: 2},
+        {text: '', navigateToIdx: 3},
+        {text: '', navigateToIdx: 4}
       ]
     },
     {

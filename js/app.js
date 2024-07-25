@@ -13,6 +13,10 @@ const buttonB = document.querySelector('#option-b')
 const buttonC = document.querySelector('#option-c')
 const buttonD = document.querySelector('#option-d')
 const resetBtnEl = document.querySelector('#reset')
+const happy = document.querySelector('mood-1')
+const sad = document.querySelector('mood-2')
+const frustrated = document.querySelector('mood-3')
+const playful = document.querySelector('mood-4')
 
 console.log(buttonA)
 console.log(buttonD)
@@ -21,6 +25,7 @@ console.log(buttonD)
 
 let currPromptIdx 
 let currPrompt 
+let playerChoice
 
 
 /*----------------------------- Event Listeners -----------------------------*/
