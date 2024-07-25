@@ -174,6 +174,91 @@ h2 {
     border-radius: 10%;
 }
 
-	
+.start,
+.start *,
+.start :after,
+.start :before,
+.start:after,
+.start:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.start {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #076970;
+  background-image: none;
+  color: black;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 150%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#024412, hsl(0, 0%, 100%));
+  padding: 0;
+}
+.start:disabled {
+  cursor: default;
+}
+.start:-moz-focusring {
+  outline: auto;
+}
+.start svg {
+  display: block;
+  vertical-align: middle;
+}
+.start [hidden] {
+  display: none;
+}
+.start {
+  border: 1px solid;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  padding: 1.1rem 4rem;
+  position: relative;
+  text-transform: uppercase;
+}
+.start .new,
+.start .old span {
+  font-weight: 900;
+  transition: transform 0.2s;
+}
+.start .new {
+  display: block;
+  transform: scale(0);
+}
+.start:hover .new {
+  transform: scale(1);
+}
+.start .old,
+.start .old span {
+  inset: 0;
+  position: absolute;
+}
+.start .old span {
+  background: #cccccc;
+  color: rgb(4, 0, 0);
+  display: block;
+  display: grid;
+  place-items: center;
+}
+.start .old span:first-child {
+  -webkit-clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
+  clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
+}
+.start .old span:nth-child(2) {
+  -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+}
+.start:hover .old span:first-child {
+  transform: translateY(-100%);
+}
+.start:hover .old span:nth-child(2) {
+  transform: translateY(100%);
+}
 
 
