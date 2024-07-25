@@ -65,16 +65,17 @@ h2 {
     text-align: center;
 }
 
-#prompts {
+#prompts > img {
+    height: 200px;
+    width: 200px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
+    /* flex-wrap: wrap; */
+    row-gap: 50px;
     padding: 10px;
-    font-family: 'Oswald';
-    margin-bottom: 0px;
+    /* margin-bottom: 0px;
     margin-top: 0px;
-    justify-content: center;
+    justify-content: center; */
 } 
 
 #reset {
