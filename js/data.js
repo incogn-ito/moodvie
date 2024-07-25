@@ -1,47 +1,49 @@
 
 const prompts = [
     {
-      id: 0,
+      id: 0, // mood-1 (happy)
       question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
-        {text: '', navigateToIdx: 1},
-        {text: '', navigateToIdx: 2},
-        {text: '', navigateToIdx: 3},
-        {text: '', navigateToIdx: 4}
-      ]
+        {text: 'Luke Skywalker', navigateToIdx: 4},
+        {text: 'Harley Quinn', navigateToIdx: 5}, 
+        {text: 'Forest Gump', navigateToIdx: 4},
+        {text: 'Elle Woods', navigateToIdx: 5}
+      ],
+      questionImg: '../assets/img/img0.png'
     },
     {
-      id: 1, // not sure
-      question: 'Which mood comes closest to how you currently feel?',
+      id: 1, // mood-2 (sad)
+      question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
-        {text: 'nostalgic', navigateToIdx: 5},
-        {text: 'bored', navigateToIdx: 8},
-        {text: 'frustrated', navigateToIdx: 6},
-        {text: 'content', navigateToIdx: 2}
-      ]
+        {text: 'Rocky Balboa', navigateToIdx: 6},
+        {text: 'The Hulk', navigateToIdx: 7},
+        {text: 'Dumbledore', navigateToIdx: 6},
+        {text: 'Morpheus', navigateToIdx: 7}
+      ],
+      questionImg: '../assets/img/img1.png'
     },
     {
-      id: 2, 
-      question: "Which mood comes closest to how you currently feel?",
+      id: 2, // mood-3 (frustrated)
+      question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
-        {text: 'excited', navigateToIdx: 5},
-        {text: 'nervous', navigateToIdx: 8},
-        {text: 'optimistic', navigateToIdx: 5},
-        {text: 'stressed', navigateToIdx: 8}
+        {text: 'John Wick', navigateToIdx: 9},
+        {text: 'Darth Vader', navigateToIdx: 10},
+        {text: 'Beatrix Kiddo', navigateToIdx: 9},
+        {text: 'Michael Corleone', navigateToIdx: 10}
       ]
     },
     {
-      id: 3, // not in the mood
-      question: 'How about television? Which TV character do you love to hate most?',
+      id: 3, // mood-4 (playful)
+      question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
-        {text: 'Prince Joffrey', navigateToIdx: 11},
-        {text: 'Nurse Ratched', navigateToIdx: 12},
-        {text: 'Gus Fring', navigateToIdx: 11},
-        {text: 'Villanelle', navigateToIdx: 12}    
+        {text: 'Shrek', navigateToIdx: 11},
+        {text: 'Deadpool', navigateToIdx: 12},
+        {text: 'Barbie', navigateToIdx: 11},
+        {text: 'The Joker', navigateToIdx: 12}    
       ]
     },
     {
-      id: 4, // i hate movies
+      id: 4, // 
       question: 'You lose. But try some of these.',
       options: [
         {text: 'good books'},  // somehow link all buttons in this ID to websites. Goodreads.com, 
@@ -51,17 +53,17 @@ const prompts = [
       ]
     },
     {
-      id: 5, // nostalgic
+      id: 5, // 
       question: "You're going on a journey. Which character will you choose to be?",
       options: [
-        {text: 'Luke Skywalker', navigateToIdx: 7},
-        {text: 'Harley Quinn', navigateToIdx: 8}, 
-        {text: 'Forest Gump', navigateToIdx: 9},
-        {text: 'Elle Woods', navigateToIdx: 10}
+        {text: '', navigateToIdx: 7},
+        {text: '', navigateToIdx: 8}, 
+        {text: '', navigateToIdx: 9},
+        {text: '', navigateToIdx: 10}
       ]
     },
     {
-      id: 6, // frustrated
+      id: 6, // 
       question: 'You\'re going on a journey, which villain will you choose as your arch enemy?',
       options: [
         {text: 'Thanos', navigateToIdx: 7},

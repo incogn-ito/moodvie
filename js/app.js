@@ -35,7 +35,9 @@ console.log(buttonD)
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-let currPromptIdx, currPrompt, playerChoice, selectedPrompts
+let currPromptIdx, currPrompt, playerChoice
+
+
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -46,24 +48,27 @@ buttonC.addEventListener('click', handleClickButtonC)
 buttonD.addEventListener('click', handleClickButtonD)
 resetBtnEl.addEventListener('click', init)
 startBtn.addEventListener('click', displayMoodsSelection)
+happy.addEventListener('click', handleSelectMood)
+sad.addEventListener('click', handleSelectMood)
+frustrated.addEventListener('click', handleSelectMood)
+playful.addEventListener('click', handleSelectMood)
+
+
 
 /*-------------------------------- Functions --------------------------------*/
 
-// function init() {
-//   currPromptIdx = 0
-//   currPrompt = prompts[currPromptIdx]
-//   render()
-// }
 
 init()
 
 function init() {
-  currPromptIdx = 0
   landingContainer.style.display = ''
   moodsContainer.style.display = 'none'
   quizContainer.style.display = 'none'
   messageContainer.style.display = 'none'
-  console.log(currPromptIdx, selectedPrompts)
+  // currPromptIdx = 0
+  // currPrompt = prompts[currPromptIdx]
+  // console.log(currPromptIdx, selectedPrompts)
+  render()
 }
 
 function displayMoodsSelection() {
@@ -71,12 +76,49 @@ function displayMoodsSelection() {
   landingContainer.style.display = 'none'
 }
 
+function displayQuizContainer() {
+  moodsContainer.style.display = 'none'
+  quizContainer.style.display = ''
+  promptsContainer.style.display = ''
+} 
+
+function handleSelectMood(evt) {
+  // console.log(evt.target)
+  // console.log(questionImg.src) 
+  currPromptIdx = 0
+  currPrompt = prompts[currPromptIdx]
+  console.log(currPrompt)
+  questionImg.src = currPrompt.questionImg
+  if (evt.target.id === 'mood-1') {
+    currPrompt = prompts[0] 
+  } else if (evt.target.id === 'mood-2') {
+    currPrompt = prompts[1]
+  } else if (evt.target.id === 'mood-3') {
+    currPrompt = prompts[2]
+  } else if (evt.target.id === 'mood-4') {
+    currPrompt = prompts[3]
+  } else {
+    return
+  }
+  displayQuizContainer()
+  currPrompt = prompts[currPromptIdx]
+  console.log(currPrompt)
+
+  render()
+}
+  // 
+  // render()
+ 
+
+
 function render() {
   questionEl.textContent = currPrompt.question
   buttonA.textContent = currPrompt.options[0].text
   buttonB.textContent = currPrompt.options[1].text
   buttonC.textContent = currPrompt.options[2].text
   buttonD.textContent = currPrompt.options[3].text
+  // let imagePath = newArray()
+  // questionImg = imgArray[currentPromptIdx].src
 }
 
 function handleClickButtonA() {
