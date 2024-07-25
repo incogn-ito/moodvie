@@ -23,8 +23,6 @@
         font-style: normal;
         src: url(https://fonts.googleapis.com/css2?family=Chango&display=swap);
 }
-
-
   
 body {
     background-color: rgb(3, 87, 87);
@@ -186,7 +184,7 @@ h2 {
 .start {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #076970;
+  background-color: #5482ed;
   background-image: none;
   color: black;
   cursor: pointer;
@@ -240,15 +238,15 @@ h2 {
   position: absolute;
 }
 .start .old span {
-  background: #cccccc;
+  background: #f6ebf4;
   color: rgb(4, 0, 0);
   display: block;
   display: grid;
   place-items: center;
 }
 .start .old span:first-child {
-  -webkit-clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
-  clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 .start .old span:nth-child(2) {
   -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
