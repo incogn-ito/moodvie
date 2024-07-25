@@ -7,16 +7,22 @@
 ## Description
 Moodvie is a choose-your-own-adventure meets personalized movie generator game. When you don’t know what to watch next, Moodvie can help you find your new or old favorite flick. I love watching movies, so I was excited to find a way to incorporate some of my favorite characters into my Unit 1 project in a creative way. 
 
+## Features
+1. Click "start"
+2. Pick your current moood
+
 ## Installation
 1. Clone the repo:
-   git clone https://github.com/your_username/repo_name.git
 
-npm start
+![Github Repo Link] (https://github.com/incogn-ito/moodvie.git)
+
+![Deployed Project Link] (https://incogn-ito.github.io/moodvie/)
 
 [Planning Documents](https://docs.google.com/document/d/14sEc207wUQUH7VWI_DEM9FekjYFtgBQHSiLgz_-qOk4/edit?usp=sharing)
 
 ## Acknowlegements
 
 Movie Date - Imdb.com 
+
 Images - ChatGPT.com
 
