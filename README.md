@@ -14,9 +14,9 @@ Moodvie is a choose-your-own-adventure meets personalized movie generator game. 
 ## Installation
 1. Clone the repo:
 
-![Github Repo Link] (https://github.com/incogn-ito/moodvie.git)
+![Github Repo Link](https://github.com/incogn-ito/moodvie.git)
 
-![Deployed Project Link] (https://incogn-ito.github.io/moodvie/)
+![Deployed Project Link](https://incogn-ito.github.io/moodvie/)
 
 [Planning Documents](https://docs.google.com/document/d/14sEc207wUQUH7VWI_DEM9FekjYFtgBQHSiLgz_-qOk4/edit?usp=sharing)
 
