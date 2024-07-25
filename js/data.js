@@ -30,7 +30,8 @@ const prompts = [
         {text: 'Darth Vader', navigateToIdx: 10},
         {text: 'Beatrix Kiddo', navigateToIdx: 9},
         {text: 'Michael Corleone', navigateToIdx: 10}
-      ]
+      ],
+      questionImg: 'assets/img/img2.png'
     },
     {
       id: 3, // mood-4 (playful)
