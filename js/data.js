@@ -725,29 +725,29 @@ const prompts = [
       { text: '' },
       { text: '' }
       ],
-      questionImg: 'assets/img/img65.tiff'
+      questionImg: 'assets/img/img65.png'
     },
     {
       id: 66,
-      question: 'You are caught in a complex web of lies and deceit that you cannot escape. THE END. Your moodvie is:',
+      question: 'You find yourself caught in a complex web of lies and the sentient dinosaurs eat you because they cannot trust your motives. THE END. Your moodvie is:',
       options: [
         { text: 'Parasite directed by Bong Joon-ho' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img66.tiff'
+      questionImg: 'assets/img/img66.png'
     },
     {
       id: 67,
-      question: 'You become a renowned chef opening your own restaurant. Your moodvie is:',
+      question: 'You become a renowned chef opening your own underwater restaurant. Your moodvie is:',
       options: [
         { text: 'Chef directed by Jon Favreau' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img67.tiff'
+      questionImg: 'assets/img/img67.png'
     },
     {
       id: 68,
@@ -758,7 +758,7 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img68.tiff'
+      questionImg: 'assets/img/img68.png'
     },
     {
       id: 69,
@@ -773,14 +773,14 @@ const prompts = [
     },
     {
       id: 70,
-      question: 'You find yourself in a nightmarish reality you must fight to escape. THE END. Your moodvie is:',
+      question: 'You find yourself in a nightmarish Wild West reality you must fight to escape. THE END. Your moodvie is:',
     options: [
       { text: 'The Babadook directed by Jennifer Kent' },
       { text: '' },
       { text: '' },
       { text: '' }
     ],
-      questionImg: 'assets/img/img70.tiff'
+      questionImg: 'assets/img/img70.png'
     }
   ];
 
