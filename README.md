@@ -9,8 +9,9 @@ Moodvie is a choose-your-own-adventure meets personalized movie generator game. 
 1. Click "ready/start"
 2. Pick your current moood
 3. Choose from the prompts to find out what happens to your character and what movie best suits your mood.
+4. You can click" reset" after you choose your
 
-# [Play](https://github.com/incogn-ito/moodvie.git)
+# [Play](https://incogn-ito.github.io/moodvie/)
 
 [Planning Documents](https://docs.google.com/document/d/14sEc207wUQUH7VWI_DEM9FekjYFtgBQHSiLgz_-qOk4/edit?usp=sharing)
 
