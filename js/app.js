@@ -119,23 +119,27 @@ function render() {
 function handleClickButtonA() {
   currPromptIdx = currPrompt.options[0].navigateToIdx
   currPrompt = prompts[currPromptIdx]
+  questionImg.src = currPrompt.questionImg
   render()
 }
 
 function handleClickButtonB() {
   currPromptIdx = currPrompt.options[1].navigateToIdx
   currPrompt = prompts[currPromptIdx]
+  questionImg.src = currPrompt.questionImg
   render()
 }
 
 function handleClickButtonC() {
   currPromptIdx = currPrompt.options[2].navigateToIdx
   currPrompt = prompts[currPromptIdx]
+  questionImg.src = currPrompt.questionImg
   render()
 }
 
 function handleClickButtonD() {
   currPromptIdx = currPrompt.options[3].navigateToIdx
   currPrompt = prompts[currPromptIdx]
+  questionImg.src = currPrompt.questionImg
   render()
 }

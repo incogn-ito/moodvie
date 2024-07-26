@@ -26,10 +26,10 @@ const prompts = [
       id: 2, // mood-3 (frustrated)
       question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
-        {text: 'John Wick', navigateToIdx: 9},
-        {text: 'Darth Vader', navigateToIdx: 10},
-        {text: 'Beatrix Kiddo', navigateToIdx: 9},
-        {text: 'Michael Corleone', navigateToIdx: 10}
+        {text: 'John Wick', navigateToIdx: 8},
+        {text: 'Darth Vader', navigateToIdx: 9},
+        {text: 'Beatrix Kiddo', navigateToIdx: 8},
+        {text: 'Michael Corleone', navigateToIdx: 9}
       ],
       questionImg: 'assets/img/img2.png'
     },
@@ -38,133 +38,293 @@ const prompts = [
       question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
         {text: 'Shrek', navigateToIdx: 11},
-        {text: 'Braveheart', navigateToIdx: 12},
+        {text: 'Braveheart', navigateToIdx: 10},
         {text: 'Juno', navigateToIdx: 11},
-        {text: 'The Joker', navigateToIdx: 12}    
+        {text: 'The Joker', navigateToIdx: 10}    
       ],
       questionImg: 'assets/img/img3.png'
     },
     {
-      id: 4, // 
-      question: 'You lose. But try some of these.',
+      id: 4, // forest + luke skywalker
+      question: 'What weapon or tool do you take with you on your journey?',
       options: [
-        {text: 'good books'},  // somehow link all buttons in this ID to websites. Goodreads.com, 
-        {text: 'great tv'},
-        {text: 'fun comics'},
-        {text: 'cool video games'} 
+        {text: 'Samurai sword', navigateToIdx: 12},   
+        {text: 'Running shoes', navigateToIdx: 13},
+        {text: 'Baseball bat', navigateToIdx: 12},
+        {text: 'Light saber', navigateToIdx: 13} 
+      ],
+      questionImg: 'assets/img/img4.png'
+    },
+    {
+      id: 5, // harle + elle
+      question: 'What weapon or tool do you take with you on your journey?',
+      options: [
+        {text: 'Acetone', navigateToIdx: 14},
+        {text: 'Shoulder cannon', navigateToIdx: 15}, 
+        {text: 'Fireworks', navigateToIdx: 14},
+        {text: 'Encyclopedia', navigateToIdx: 15}
       ]
     },
     {
-      id: 5, // 
-      question: "You're going on a journey. Which character will you choose to be?",
+      id: 6, // rocky + dumbledore 
+      question: 'What weapon or tool do you take with you on your journey?',
       options: [
-        {text: '', navigateToIdx: 7},
-        {text: '', navigateToIdx: 8}, 
-        {text: '', navigateToIdx: 9},
-        {text: '', navigateToIdx: 10}
+        {text: 'Crowbar', navigateToIdx: 16},
+        {text: 'Nunchucks', navigateToIdx: 17},
+        {text: 'Chef\'s knife', navigateToIdx: 17},
+        {text: 'Philosopher\'s Stone', navigateToIdx: 16}
       ]
     },
     {
-      id: 6, // 
-      question: 'You\'re going on a journey, which villain will you choose as your arch enemy?',
+      id: 7, // hulk + morpheus
+      question: 'What weapon or tool do you take with you on your journey?',
       options: [
-        {text: 'Thanos', navigateToIdx: 7},
-        {text: 'Regina George', navigateToIdx: 2},
-        {text: 'Hannibal Lecter', navigateToIdx: 3},
-        {text: 'Hans Landa', navigateToIdx: 7}
+        {text: 'Lasso', navigateToIdx: 18},
+        {text: 'Thor\'s Hammer', navigateToIdx: 18},
+        {text: "Spear", navigateToIdx: 19},
+        {text: 'Computer', navigateToIdx: 19}
       ]
     },
     {
-      id: 7, // luke sky, forest gump
-      question: "What tool will you choose to bring with you?",
+      id: 8, //  wick + bride/beatrix kill bill
+      question: 'What weapon or tool do you take with you on your journey?',
       options: [
-        {text: 'Baseball bat', navigateToIdx: 10},
-        {text: 'Samurai sword', navigateToIdx: 11},
-        {text: "Running shoes", navigateToIdx: 10},
-        {text: 'Light saber', navigateToIdx: 11}
+        {text: 'Frying pan', navigateToIdx: 20},
+        {text: 'Dynamite', navigateToIdx: 21},
+        {text: 'Broadsword', navigateToIdx: 21},
+        {text: 'Exploding heart technique', navigateToIdx: 20}
       ]
     },
     {
-      id: 8, //  
-      question: "You're going on an adventure. Which character would you choose?",
+      id: 9, // coreleone, darth vadar
+      question: 'What weapon or tool do you take with you on your journey?',
       options: [
-        {text: 'Butch Cassidy', navigateToIdx: 8},
-        {text: 'Jobu Tupaki', navigateToIdx: 6},
-        {text: 'Aragorn', navigateToIdx: 6},
-        {text: 'Trinity', navigateToIdx: 8}
+        {text: 'Whisky', navigateToIdx: 22},
+        {text: 'Velociraptor', navigateToIdx: 23},
+        {text: 'The Force', navigateToIdx: 22},
+        {text: 'Rat poison', navigateToIdx: 23}
       ]
     },
     {
-      id: 9, // james bond
-      question: '',
+      id: 10, // braveheart + joker
+      question: 'What weapon or tool do you take with you on your journey?',
       options: [
-        {text: 'Opt A', navigateToIdx: 1},
-        {text: 'Opt B', navigateToIdx: 2},
-        {text: 'Opt C', navigateToIdx: 3},
-        {text: 'Opt D', navigateToIdx: 4}
+        {text: 'Light saber', navigateToIdx: 24},
+        {text: 'Grenade', navigateToIdx: 25},
+        {text: 'Broadsword', navigateToIdx: 25},
+        {text: 'Sharpened pencil', navigateToIdx: 24}
       ]
     },
     {
-      id: 10, // bat + sword
-      question: '',
+      id: 11, // shrek + juno
+      question: 'What weapon or tool do you take with you on your journey?',
       options: [
-        {text: 'Opt A', navigateToIdx: 1},
-        {text: 'Opt B', navigateToIdx: 2},
-        {text: 'Opt C', navigateToIdx: 3},
-        {text: 'Opt D', navigateToIdx: 4}
+        {text: 'Fart bomb', navigateToIdx: 26},
+        {text: 'Hamburger phone', navigateToIdx: 26},
+        {text: 'Spiked club', navigateToIdx: 27},
+        {text: 'Nerf gun', navigateToIdx: 27}
       ]
     },
     {
-      id: 11, //
-      question: '',
+      id: 12, // samurai sword + baseball bat - forest + luke
+      question: 'What world will you choose to explore?',
       options: [
-        {text: 'Opt A', navigateToIdx: 1},
-        {text: 'Opt B', navigateToIdx: 2},
-        {text: 'Opt C', navigateToIdx: 3},
-        {text: 'Opt D', navigateToIdx: 4}
+        {text: 'Futuristic city', navigateToIdx: 28},   
+        {text: 'Jurassic era', navigateToIdx: 29},
+        {text: 'Exoplanet colony', navigateToIdx: 28},
+        {text: 'Underwater kingdom', navigateToIdx: 30} 
       ]
     },
     {
-      id: 12, // 
-      question: '',
+      id: 13, // Running shoes + light saber - ""
+      question: 'What world will you choose to explore?',
       options: [
-        {text: 'Opt A', navigateToIdx: 1},
-        {text: 'Opt B', navigateToIdx: 2},
-        {text: 'Opt C', navigateToIdx: 3},
-        {text: 'Opt D', navigateToIdx: 4}
+        {text: 'Desert wasteland', navigateToIdx: 31},   
+        {text: 'Abandoned city', navigateToIdx: 31},
+        {text: 'Jungle', navigateToIdx: 32},
+        {text: 'Wild West', navigateToIdx: 33} 
       ]
     },
     {
-      id: 13, // 
-      question: '',
+      id: 14, // acetone + fireworks harle+elle 
+      question: 'What world will you choose to explore?',
       options: [
-        {text: 'Opt A', navigateToIdx: 1},
-        {text: 'Opt B', navigateToIdx: 2},
-        {text: 'Opt C', navigateToIdx: 3},
-        {text: 'Opt D', navigateToIdx: 4}
+        {text: 'Futuristic city', navigateToIdx: 34},    
+        {text: 'Jurassic era', navigateToIdx: 35}, 
+        {text: 'Exoplanet colony', navigateToIdx: 34},
+        {text: 'Underwater kingdom', navigateToIdx: 36} 
       ]
     },
     {
-      id: 14, // 
-      question: '',
+      id: 15, // shoulder cannon + encyc "" 
+      question: 'What world will you choose to explore?',
       options: [
-        {text: 'Opt A', navigateToIdx: 1},
-        {text: 'Opt B', navigateToIdx: 2},
-        {text: 'Opt C', navigateToIdx: 3},
-        {text: 'Opt D', navigateToIdx: 4}
+        {text: 'Desert wasteland', navigateToIdx: 37},   
+        {text: 'Abandoned city', navigateToIdx: 37},
+        {text: 'Jungle', navigateToIdx: 38},
+        {text: 'Wild West', navigateToIdx: 39} 
       ]
     },
     {
-      id: 14, // 
-      question: '',
+      id: 16, // crowbar + philosopher's stone rocky, dumbledore 
+      question: 'What world will you choose to explore?',
       options: [
-        {text: 'Opt A', navigateToIdx: 1},
-        {text: 'Opt B', navigateToIdx: 2},
-        {text: 'Opt C', navigateToIdx: 3},
-        {text: 'Opt D', navigateToIdx: 4}
+        {text: 'Futuristic city', navigateToIdx: 40},    
+        {text: 'Jurassic era', navigateToIdx: 41}, 
+        {text: 'Exoplanet colony', navigateToIdx: 40},
+        {text: 'Underwater kingdom', navigateToIdx: 42} 
       ]
-    }
-  
+    },
+    {
+      id: 17, // nunchucks chefs knife ""
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 43},   
+        {text: 'Abandoned city', navigateToIdx: 43},
+        {text: 'Jungle', navigateToIdx: 44},
+        {text: 'Wild West', navigateToIdx: 45} 
+      ]
+    },
+    {
+      id: 18, // lasso + thors hammer hulk morph 
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Futuristic city', navigateToIdx: 46},    
+        {text: 'Jurassic era', navigateToIdx: 47}, 
+        {text: 'Exoplanet colony', navigateToIdx: 46},
+        {text: 'Underwater kingdom', navigateToIdx: 47} 
+      ]
+    },
+    {
+      id: 19, // spear + computer ""
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 48},   
+        {text: 'Abandoned city', navigateToIdx: 49},
+        {text: 'Jungle', navigateToIdx: 49},
+        {text: 'Wild West', navigateToIdx: 50} 
+      ]
+    },
+    {
+      id: 20, // frying pan, explording heart beatrix + wick
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Futuristic city', navigateToIdx: 51},    
+        {text: 'Jurassic era', navigateToIdx: 52}, 
+        {text: 'Exoplanet colony', navigateToIdx: 51},
+        {text: 'Underwater kingdom', navigateToIdx: 52} 
+      ]
+    },
+    {
+      id: 21, // dynamite broadsword ""
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 53},   
+        {text: 'Abandoned city', navigateToIdx: 53},
+        {text: 'Jungle', navigateToIdx: 54},
+        {text: 'Wild West', navigateToIdx: 55} 
+      ]
+    },
+    {
+      id: 22, // whisky + the force coreleone vadar
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Futuristic city', navigateToIdx: 56},    
+        {text: 'Jurassic era', navigateToIdx: 57}, 
+        {text: 'Exoplanet colony', navigateToIdx: 56},
+        {text: 'Underwater kingdom', navigateToIdx: 58} 
+      ]
+    },
+    {
+      id: 23, // velocirapt + rat poison ""
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 59},   
+        {text: 'Abandoned city', navigateToIdx: 59},
+        {text: 'Jungle', navigateToIdx: 60},
+        {text: 'Wild West', navigateToIdx: 61} 
+      ]
+    },
+    {
+      id: 24, // light saber, sharpened pencil braveheart, joker 
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 63},   
+        {text: 'Abandoned city', navigateToIdx: 63},
+        {text: 'Jungle', navigateToIdx: 62},
+        {text: 'Wild West', navigateToIdx: 64} 
+      ]
+    },
+    {
+      id: 25, // grenade, broadsword ""
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Futuristic city', navigateToIdx: 62},    
+        {text: 'Jurassic era', navigateToIdx: 63}, 
+        {text: 'Exoplanet colony', navigateToIdx: 62},
+        {text: 'Underwater kingdom', navigateToIdx: 64} 
+      ]
+    },
+    {
+      id: 26, // fart bomb, harburger phone - shrek, juno
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Futuristic city', navigateToIdx: 65},    
+        {text: 'Jurassic era', navigateToIdx: 66}, 
+        {text: 'Exoplanet colony', navigateToIdx: 65},
+        {text: 'Underwater kingdom', navigateToIdx: 67} 
+      ]
+    },
+    {
+      id: 27, //  spiked club + nerf gun ""
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 68},   
+        {text: 'Abandoned city', navigateToIdx: 68},
+        {text: 'Jungle', navigateToIdx: 69},
+        {text: 'Wild West', navigateToIdx: 70} 
+      ]
+    },
+    {
+      id: 28, // cr
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Futuristic city', navigateToIdx: 40},    
+        {text: 'Jurassic era', navigateToIdx: 41}, 
+        {text: 'Exoplanet colony', navigateToIdx: 40},
+        {text: 'Underwater kingdom', navigateToIdx: 42} 
+      ]
+    },
+    {
+      id: 29, // n
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 43},   
+        {text: 'Abandoned city', navigateToIdx: 43},
+        {text: 'Jungle', navigateToIdx: 44},
+        {text: 'Wild West', navigateToIdx: 45} 
+      ]
+    },
+    {
+      id: 30, // cr
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Futuristic city', navigateToIdx: 40},    
+        {text: 'Jurassic era', navigateToIdx: 41}, 
+        {text: 'Exoplanet colony', navigateToIdx: 40},
+        {text: 'Underwater kingdom', navigateToIdx: 42} 
+      ]
+    },
+    {
+      id: 31, // n
+      question: 'What world will you choose to explore?',
+      options: [
+        {text: 'Desert wasteland', navigateToIdx: 43},   
+        {text: 'Abandoned city', navigateToIdx: 43},
+        {text: 'Jungle', navigateToIdx: 44},
+        {text: 'Wild West', navigateToIdx: 45} 
+      ]
+    },
   
   ]
   
