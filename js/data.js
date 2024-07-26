@@ -285,19 +285,20 @@ const prompts = [
         {text: 'Wild West', navigateToIdx: 70} 
       ]
     },
+    // From here below -- need to disappear buttons
     {
       id: 28, // cr
-      question: 'What world will you choose to explore?',
+      question: 'Robots take over your world, and your running shoes or baseball bat could not save you. THE END. Check out your moodvie recommendation below',
       options: [
-        {text: 'Futuristic city', navigateToIdx: 40},    
-        {text: 'Jurassic era', navigateToIdx: 41}, 
-        {text: 'Exoplanet colony', navigateToIdx: 40},
-        {text: 'Underwater kingdom', navigateToIdx: 42} 
+        {text: 'Alien directed by Ridley Scott'},   
+        {text: ''},
+        {text: ''},
+        {text: ''}
       ]
     },
     {
       id: 29, // n
-      question: 'What world will you choose to explore?',
+      question: '',
       options: [
         {text: 'Desert wasteland', navigateToIdx: 43},   
         {text: 'Abandoned city', navigateToIdx: 43},
@@ -307,7 +308,7 @@ const prompts = [
     },
     {
       id: 30, // cr
-      question: 'What world will you choose to explore?',
+      question: '',
       options: [
         {text: 'Futuristic city', navigateToIdx: 40},    
         {text: 'Jurassic era', navigateToIdx: 41}, 
