@@ -322,18 +322,18 @@ const prompts = [
     },
     {
       id: 29,
-      question: 'You discover a hidden treasure chest full of gold. Your moodvie is:',
+      question: 'You become a part of an elaborate heist gone wrong. You are on the run for the rest of your journey. THE END. Your moodvie is:',
       options: [
-        { text: 'Pirates of the Caribbean: The Curse of the Black Pearl directed by Gore Verbinski' },
+        { text: 'Butch Cassidy and the Sundance Kid directed by George Roy Hill' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img29.tiff'
+      questionImg: 'assets/img/img29.png'
     },
     {
       id: 30,
-      question: 'You invent a time machine and travel to the future. Your moodvie is:',
+      question: 'You invent a time machine and travel to the future of your underwater world. THE END. Your moodvie is:',
       options: [
         { text: 'Back to the Future directed by Robert Zemeckis' },
         { text: '' },
@@ -344,7 +344,7 @@ const prompts = [
     },
     {
       id: 31,
-      question: 'You save a city from a catastrophic event. Your moodvie is:',
+      question: 'You save those you love from a catastrophic event. THE END. Your moodvie is:',
       options: [
         { text: 'The Dark Knight directed by Christopher Nolan' },
         { text: '' },
@@ -355,14 +355,14 @@ const prompts = [
     },
     {
       id: 32, 
-      question: 'You become the ringleader of a large gang that takes over the West. THE END. Your moodvie is:',
+      question: 'You experience the tragic rise and fall of a famous family, and luckily never end up in their crosshairs. THE END. Your moodvie is:',
       options: [
-        { text: 'Unforgiven directed by Clint Eastwoood' },
+        { text: 'The Godfather directed by Francis Ford Coppola' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img32.tiff'
+      questionImg: 'assets/img/img32.png'
     },
     {
       id: 33,
@@ -373,22 +373,22 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img33.tiff'
+      questionImg: 'assets/img/img33.png'
     },
     {
       id: 34,
-      question: 'You become a world-renowned artist. Your moodvie is:',
+      question: 'You become a world-renowned artist and live a long, happy life. THE END. Your moodvie is:',
       options: [
         { text: 'Frida directed by Julie Taymor' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img34.tiff'
+      questionImg: 'assets/img/img34.png'
     },
     {
       id: 35,
-      question: 'You embark on a journey to save your family. Your moodvie is:',
+      question: 'You embark on a journey to save your family and you get them back. THE END. Your moodvie is:',
       options: [
         { text: 'Taken directed by Pierre Morel' },
         { text: '' },
@@ -399,7 +399,7 @@ const prompts = [
     },
     {
       id: 36,
-      question: 'You are betrayed by your closest ally in a battle. THE END. Your moodvie is:',
+      question: 'You are betrayed by your closest ally. THE END. Your moodvie is:',
       options: [
         { text: 'Gladiator directed by Ridley Scott' },
         { text: '' },
@@ -410,25 +410,25 @@ const prompts = [
     },
     {
       id: 37,
-      question: 'You are a detective solving a complex mystery. Your moodvie is:',
+      question: 'You become a detective solving a complex mystery. THE END. Your moodvie is:',
       options: [
         { text: 'Sherlock Holmes directed by Guy Ritchie' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img37.tiff'
+      questionImg: 'assets/img/img37.png'
     },
     {
       id: 38,
-      question: 'You navigate the gritty underworld of crime and barely survive. THE END. Your moodvie is:',
+      question: 'You navigate the gritty underworld of a crime infested jungle and barely survive. THE END. Your moodvie is:',
       options: [
       { text: 'Pulp Fiction directed by Quentin Tarantino' },
       { text: '' },
       { text: '' },
       { text: '' }
       ],
-      questionImg: 'assets/img/img38.tiff'
+      questionImg: 'assets/img/img38.png'
     },
     {
       id: 39,
@@ -439,11 +439,11 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img39.tiff'
+      questionImg: 'assets/img/img39.png'
     },
     {
       id: 40,
-      question: 'You lead a revolution against a tyrannical government. Your moodvie is:',
+      question: 'You lead a revolution against a tyrannical government and win. THE END. Your moodvie is:',
       options: [
         { text: 'V for Vendetta directed by James McTeigue' },
         { text: '' },
@@ -464,7 +464,7 @@ const prompts = [
       questionImg: 'assets/img/img41.tiff'
     },
     {
-      id: 42,
+      id: 42, // 
       question: 'You witness the rise and fall of a powerful figure. Your moodvie is:',
       options: [
       { text: 'Citizen Kane directed by Orson Welles' },
@@ -483,7 +483,7 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img43.tiff'
+      questionImg: 'assets/img/img43.png'
     },
     {
       id: 44,
@@ -505,7 +505,7 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img45.tiff'
+      questionImg: 'assets/img/img45.png'
     },
     {
       id: 46,
@@ -519,15 +519,15 @@ const prompts = [
       questionImg: 'assets/img/img46.tiff'
     },
     {
-      id: 47,
-      question: 'You discover you have superpowers and fall madly in love. THE END. Your moodvie is:',
+      id: 47, 
+      question: 'You discover you have superpowers to make things invisible and you punish the criminals living in your underwater world. THE END. Your moodvie is:',
       options: [
         { text: 'Spider-Man directed by Sam Raimi' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img47.tiff'
+      questionImg: 'assets/img/img9.tiff'
     },
     {
       id: 48,
@@ -538,7 +538,7 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img48.tiff'
+      questionImg: 'assets/img/img48.png'
     },
     {
       id: 49,
@@ -560,7 +560,7 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img50.tiff'
+      questionImg: 'assets/img/img50.png'
     },
     {
       id: 51,
@@ -571,18 +571,18 @@ const prompts = [
       { text: '' },
       { text: '' }
       ],
-      questionImg: 'assets/img/img51.tiff'
+      questionImg: 'assets/img/img51.png'
     },
     {
       id: 52,
-      question: 'You are a detective investigating a complex crime. Your moodvie is:',
+      question: 'You become obsessed with trying to find your way back home, and you never do. THE END. Your moodvie is:',
       options: [
         { text: 'Se7en directed by David Fincher' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img52.tiff'
+      questionImg: 'assets/img/img52.png'
     },
     {
       id: 53,
@@ -593,18 +593,18 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img53.tiff'
+      questionImg: 'assets/img/img53.png'
     },
     {
       id: 54,
-      question: 'You lead a rebellion against an oppressive regime. THE END. Your moodvie is:',
+      question: 'You lead a rebellion against an oppressive regime. You win. THE END. Your moodvie is:',
       options: [
         { text: 'The Hunger Games directed by Gary Ross' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img54.tiff'
+      questionImg: 'assets/img/img54.png'
     },
     {
       id: 55,
@@ -626,22 +626,22 @@ const prompts = [
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img56.tiff'
+      questionImg: 'assets/img/img56.png'
     },
     {
       id: 57,
-      question: 'You are a courageous explorer venturing into the unknown. Your moodvie is:',
+      question: 'You become famous for your courageous exploration venturing into the unknown. THE END. Your moodvie is:',
       options: [
         { text: 'Indiana Jones and the Last Crusade directed by Steven Spielberg' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img57.tiff'
+      questionImg: 'assets/img/img57.png'
     },
     {
       id: 58,
-      question: 'You are possessed by a malevolent entity. Your moodvie is:',
+      question: 'You become possessed by a malevolent entity. It does not end well. THE END. Your moodvie is:',
       options: [
       { text: 'The Exorcist directed by William Friedkin' },
       { text: '' },
@@ -652,14 +652,14 @@ const prompts = [
     },
     {
       id: 59,
-      question: 'You become a legendary warrior in an epic battle. Your moodvie is:',
+      question: 'You become a legendary warrior in an epic battle. You live to see yourself become the villain in your own story. THE END. Your moodvie is:',
       options: [
         { text: '300 directed by Zack Snyder' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img59.tiff'
+      questionImg: 'assets/img/img59.png'
     },
     {
       id: 60,
@@ -674,51 +674,51 @@ const prompts = [
     },
     {
       id: 61,
-      question: 'You find yourself in a dystopian future. Your moodvie is:',
+      question: 'You find yourself in a dystopian future of your nightmares. THE END. Your moodvie is:',
       options: [
         { text: 'Blade Runner 2049 directed by Denis Villeneuve' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img61.tiff'
+      questionImg: 'assets/img/img61.png'
     },
     {
       id: 62,
-      question: 'You are a fearless adventurer exploring ancient ruins. Your moodvie is:',
+      question: 'You are a fearless adventurer exploring ancient ruins. You become famous for your finds. THE END. Your moodvie is:',
       options: [
         { text: 'Tomb Raider directed by Roar Uthaug' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img62.tiff'
+      questionImg: 'assets/img/img62.png'
     },
     {
       id: 63,
-      question: 'You discover a conspiracy that threatens the world. THE END. Your moodvie is:',
+      question: 'You discover a conspiracy that threatens the world. You save the world from destruction. THE END. Your moodvie is:',
       options: [
         { text: 'The Bourne Identity directed by Doug Liman' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img63.tiff'
+      questionImg: 'assets/img/img63.png'
     },
     {
-      id: 64,
-      question: 'You experience the tragic rise and fall of a famous family, and luckily never end up in their crosshairs. THE END. Your moodvie is:',
+      id: 64, // DONE
+      question: 'You become the ringleader of a large gang that takes over the West. THE END. Your moodvie is:',
       options: [
-        { text: 'The Godfather directed by Francis Ford Coppola' },
+        { text: 'Unforgiven directed by Clint Eastwoood' },
         { text: '' },
         { text: '' },
         { text: '' }
       ],
-      questionImg: 'assets/img/img64.tiff'
+      questionImg: 'assets/img/img10.tiff'
     },
     {
       id: 65,
-      question: 'You witness the destruction caused by a giant monster and live in fear of his return. THE END. Your moodvie is:',
+      question: 'You witness the destruction caused by a giant monster but you save the city. THE END. Your moodvie is:',
       options: [
       { text: 'Godzilla Minus One directed by Takashi Yamazaki' },
       { text: '' },

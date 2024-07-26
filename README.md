@@ -3,7 +3,7 @@
 # Moodvie  
 
 ## Description:
-Moodvie is a choose-your-own-adventure meets personalized movie generator game. When you don’t know what to watch next, Moodvie can help you find your new or old favorite flick. I love watching movies, so I was excited to find a way to incorporate some of my favorite characters into this project in a creative way. I was inspired by the book, 'Film Club' written by David Gilmour, a memoir about the 3 years he let his teenage son drop out of school if he watched 3 movies a week. My goal was to create a fun, interactive game that could help people, non-cinephiles and cinephiles alike, get back to some classic movies or simply find a starting point for some great films to watch first.
+Moodvie is a choose-your-own-adventure meets personalized movie generator game. When you don’t know what to watch next, Moodvie can help you find your new or old favorite flick. I love watching movies, so I was excited to find a way to incorporate some of my favorite characters into this project in a creative way. I was inspired by the book, 'Film Club' written by David Gilmour, a memoir about the 3 years he let his teenage son drop out of school if he watched 3 movies a week. My goal was to create a fun, interactive game that could help people, non-cinephiles and cinephiles alike, get back to some classic movies or simply find a starting point for some great films to begin watching.
 
 ## How to Play:
 1. Click "ready/start"
@@ -25,15 +25,19 @@ Moodvie is a choose-your-own-adventure meets personalized movie generator game. 
 
 ## Acknowlegements:
 
+[American Film Institute](https://www.afi.com/afis-100-years-100-movies-10th-anniversary-edition/)
+
 [IMDb](Imdb.com) 
+
+[David Gilmour](https://en.wikipedia.org/wiki/The_Film_Club)
+
+# Artwork:
 
 [ChatGPT4](chatGPT.com)
 
 [Anni Roenkae](https://www.pexels.com/@anniroenkae/highlights/)
 
-[David Gilmour]()
-
-## Stretch Goals
+## Stretch Goals:
 1. Add audio
 2. Add animation
 3. Add links to trailers
