@@ -75,6 +75,7 @@ const prompts = [
         {text: 'Chef\'s knife', navigateToIdx: 17},
         {text: 'Philosopher\'s Stone', navigateToIdx: 16}
       ],
+       questionImg: 'assets/img/img7.png'
     },
     {
       id: 7, // hulk + morpheus
@@ -85,6 +86,7 @@ const prompts = [
         {text: "Spear", navigateToIdx: 19},
         {text: 'Computer', navigateToIdx: 19}
       ],
+      questionImg: 'assets/img/img13.png'
     },
     {
       id: 8, //  wick + bride/beatrix kill bill
@@ -95,6 +97,7 @@ const prompts = [
         {text: 'Broadsword', navigateToIdx: 21},
         {text: 'Exploding heart technique', navigateToIdx: 20}
       ],
+      questionImg: 'assets/img/img12.png'
     },
     {
       id: 9, // coreleone, darth vadar
@@ -105,6 +108,7 @@ const prompts = [
         {text: 'The Force', navigateToIdx: 22},
         {text: 'Rat poison', navigateToIdx: 23}
       ],
+      questionImg: 'assets/img/img6.png'
     },
     {
       id: 10, // braveheart + joker
@@ -115,6 +119,7 @@ const prompts = [
         {text: 'Broadsword', navigateToIdx: 25},
         {text: 'Sharpened pencil', navigateToIdx: 24}
       ],
+      questionImg: 'assets/img/img11.png'
     },
     {
       id: 11, // shrek + juno
@@ -125,6 +130,7 @@ const prompts = [
         {text: 'Spiked club', navigateToIdx: 27},
         {text: 'Nerf gun', navigateToIdx: 27}
       ],
+      questionImg: 'assets/img/img8.png'
     },
     {
       id: 12, // samurai sword + baseball bat - forest + luke
