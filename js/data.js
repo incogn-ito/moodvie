@@ -785,20 +785,19 @@ const prompts = [
   ];
 
 
-  
   /*
   synopsis credit: imdb.com and AFI.com
   
-  categories:
-  nostalgic/sad:
+  Themes to moods:
+
+  Sad:
   Romance, Western, Fantasy, Animation
   
   Frustrated:
   Crime, Action, Sci-fi, Horror, Drama
   
-  Up for anything: (all categories x animation)
+  Happy/Playful: (all categories x animation)
   History, Biography, Horror, Action, Sci-fi, Crime, Drama
-  
   */
   
   const moviesWithArtwork = [

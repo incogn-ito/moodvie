@@ -119,7 +119,6 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 25px;
-    /* row-gap: 50px; */
     padding: 50px;
     justify-content: center;
 } 
@@ -133,7 +132,6 @@ h2 {
     border-radius: 10%;
     padding: 5px;
     margin: 0 auto;
-
 }
 		
 #option-b {
@@ -145,8 +143,8 @@ h2 {
     border-radius: 10%;
     padding: 5px;
     margin: 0 auto;
-
 }
+
 #option-c {
     display: flex;
     font-family: 'Oswald';
@@ -156,7 +154,6 @@ h2 {
     border-radius: 10%;
     padding: 5px;
     margin: 0 auto;
-
 }
 
 #option-d {
