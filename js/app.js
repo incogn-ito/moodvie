@@ -2,7 +2,6 @@ console.log('test')
 
 /*--------------------------------- Imports ----------------------------------*/
 
-
 import { prompts, moviesWithArtwork} from "./data.js"
 
 /*------------------------ Cached Element References ------------------------*/
@@ -30,16 +29,10 @@ const messageEl = document.querySelector('#message')
 const questionImg = document.querySelector('#question-img')
 const messageImg = document.querySelector('#message-img')
 
-// document.querySelector('img[src="processing_report.gif"]').setAttribute('alt', '<altText>')
-
-console.log(buttonA)
-console.log(buttonD)
 
 /*---------------------------- Variables (state) ----------------------------*/
 
 let currPromptIdx, currPrompt
-
-
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -55,10 +48,7 @@ sad.addEventListener('click', handleSelectMood)
 frustrated.addEventListener('click', handleSelectMood)
 playful.addEventListener('click', handleSelectMood)
 
-
-
 /*-------------------------------- Functions --------------------------------*/
-
 
 init()
 
@@ -67,10 +57,6 @@ function init() {
   moodsContainer.style.display = 'none'
   quizContainer.style.display = 'none'
   messageContainer.style.display = 'none'
-  // currPromptIdx = 0
-  // currPrompt = prompts[currPromptIdx]
-  // console.log(currPromptIdx, selectedPrompts)
-  // render()
 }
 
 function displayMoodsSelection() {
@@ -114,8 +100,6 @@ function render() {
   buttonB.textContent = currPrompt.options[1].text
   buttonC.textContent = currPrompt.options[2].text
   buttonD.textContent = currPrompt.options[3].text
-  // let imagePath = newArray()
-  // questionImg = imgArray[currentPromptIdx].src
 }
 
 function handleClickButtonA() {
