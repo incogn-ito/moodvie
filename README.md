@@ -38,9 +38,10 @@ Moodvie is a choose-your-own-adventure meets personalized movie generator game. 
 [Anni Roenkae](https://www.pexels.com/@anniroenkae/highlights/)
 
 ## Stretch Goals:
-1. Add audio
-2. Add animation
-3. Add links to trailers
+1. Add alt tags to remaining images
+2. Add animation and audio
+3. Add links to trailers for moodvie recommendations
+4. Iterate through categories of movies specific to each mood so recommendations auto populate at the end of each path
 
 
 
