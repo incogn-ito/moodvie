@@ -498,7 +498,7 @@ const prompts = [
     },
     {
       id: 45,
-      question: 'You embark on an interstellar journey and although you never return home, you experience things no one ever will. THE END Your moodvie is:',
+      question: 'You embark on an interstellar journey and although you never return home, you experience things no one ever will. THE END. Your moodvie is:',
       options: [
         { text: 'Interstellar directed by Christopher Nolan' },
         { text: '' },
