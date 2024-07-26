@@ -32,7 +32,7 @@ Moodvie is a choose-your-own-adventure meets personalized movie generator game. 
 
 [David Gilmour](https://en.wikipedia.org/wiki/The_Film_Club)
 
-# Artwork:
+## Artwork:
 
 [ChatGPT4](chatGPT.com)
 
