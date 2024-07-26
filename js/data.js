@@ -63,7 +63,8 @@ const prompts = [
         {text: 'Shoulder cannon', navigateToIdx: 15}, 
         {text: 'Fireworks', navigateToIdx: 14},
         {text: 'Encyclopedia', navigateToIdx: 15}
-      ]
+      ],
+      questionImg: 'assets/img/img5.png'
     },
     {
       id: 6, // rocky + dumbledore 
@@ -73,7 +74,7 @@ const prompts = [
         {text: 'Nunchucks', navigateToIdx: 17},
         {text: 'Chef\'s knife', navigateToIdx: 17},
         {text: 'Philosopher\'s Stone', navigateToIdx: 16}
-      ]
+      ],
     },
     {
       id: 7, // hulk + morpheus
@@ -83,7 +84,7 @@ const prompts = [
         {text: 'Thor\'s Hammer', navigateToIdx: 18},
         {text: "Spear", navigateToIdx: 19},
         {text: 'Computer', navigateToIdx: 19}
-      ]
+      ],
     },
     {
       id: 8, //  wick + bride/beatrix kill bill
@@ -93,7 +94,7 @@ const prompts = [
         {text: 'Dynamite', navigateToIdx: 21},
         {text: 'Broadsword', navigateToIdx: 21},
         {text: 'Exploding heart technique', navigateToIdx: 20}
-      ]
+      ],
     },
     {
       id: 9, // coreleone, darth vadar
@@ -103,7 +104,7 @@ const prompts = [
         {text: 'Velociraptor', navigateToIdx: 23},
         {text: 'The Force', navigateToIdx: 22},
         {text: 'Rat poison', navigateToIdx: 23}
-      ]
+      ],
     },
     {
       id: 10, // braveheart + joker
@@ -113,7 +114,7 @@ const prompts = [
         {text: 'Grenade', navigateToIdx: 25},
         {text: 'Broadsword', navigateToIdx: 25},
         {text: 'Sharpened pencil', navigateToIdx: 24}
-      ]
+      ],
     },
     {
       id: 11, // shrek + juno
@@ -123,7 +124,7 @@ const prompts = [
         {text: 'Hamburger phone', navigateToIdx: 26},
         {text: 'Spiked club', navigateToIdx: 27},
         {text: 'Nerf gun', navigateToIdx: 27}
-      ]
+      ],
     },
     {
       id: 12, // samurai sword + baseball bat - forest + luke
@@ -133,7 +134,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 29},
         {text: 'Exoplanet colony', navigateToIdx: 28},
         {text: 'Underwater kingdom', navigateToIdx: 30} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 13, // Running shoes + light saber - ""
@@ -143,7 +145,8 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 31},
         {text: 'Jungle', navigateToIdx: 32},
         {text: 'Wild West', navigateToIdx: 33} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
     {
       id: 14, // acetone + fireworks harle+elle 
@@ -153,7 +156,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 35}, 
         {text: 'Exoplanet colony', navigateToIdx: 34},
         {text: 'Underwater kingdom', navigateToIdx: 36} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 15, // shoulder cannon + encyc "" 
@@ -163,7 +167,8 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 37},
         {text: 'Jungle', navigateToIdx: 38},
         {text: 'Wild West', navigateToIdx: 39} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
     {
       id: 16, // crowbar + philosopher's stone rocky, dumbledore 
@@ -173,7 +178,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 41}, 
         {text: 'Exoplanet colony', navigateToIdx: 40},
         {text: 'Underwater kingdom', navigateToIdx: 42} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 17, // nunchucks chefs knife ""
@@ -183,7 +189,8 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 43},
         {text: 'Jungle', navigateToIdx: 44},
         {text: 'Wild West', navigateToIdx: 45} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
     {
       id: 18, // lasso + thors hammer hulk morph 
@@ -193,7 +200,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 47}, 
         {text: 'Exoplanet colony', navigateToIdx: 46},
         {text: 'Underwater kingdom', navigateToIdx: 47} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 19, // spear + computer ""
@@ -203,7 +211,8 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 49},
         {text: 'Jungle', navigateToIdx: 49},
         {text: 'Wild West', navigateToIdx: 50} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
     {
       id: 20, // frying pan, explording heart beatrix + wick
@@ -213,7 +222,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 52}, 
         {text: 'Exoplanet colony', navigateToIdx: 51},
         {text: 'Underwater kingdom', navigateToIdx: 52} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 21, // dynamite broadsword ""
@@ -223,7 +233,8 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 53},
         {text: 'Jungle', navigateToIdx: 54},
         {text: 'Wild West', navigateToIdx: 55} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
     {
       id: 22, // whisky + the force coreleone vadar
@@ -233,7 +244,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 57}, 
         {text: 'Exoplanet colony', navigateToIdx: 56},
         {text: 'Underwater kingdom', navigateToIdx: 58} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 23, // velocirapt + rat poison ""
@@ -243,7 +255,8 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 59},
         {text: 'Jungle', navigateToIdx: 60},
         {text: 'Wild West', navigateToIdx: 61} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
     {
       id: 24, // light saber, sharpened pencil braveheart, joker 
@@ -253,7 +266,8 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 63},
         {text: 'Jungle', navigateToIdx: 62},
         {text: 'Wild West', navigateToIdx: 64} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
     {
       id: 25, // grenade, broadsword ""
@@ -263,7 +277,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 63}, 
         {text: 'Exoplanet colony', navigateToIdx: 62},
         {text: 'Underwater kingdom', navigateToIdx: 64} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 26, // fart bomb, harburger phone - shrek, juno
@@ -273,7 +288,8 @@ const prompts = [
         {text: 'Jurassic era', navigateToIdx: 66}, 
         {text: 'Exoplanet colony', navigateToIdx: 65},
         {text: 'Underwater kingdom', navigateToIdx: 67} 
-      ]
+      ],
+      questionImg: 'assets/img/img26.png'
     },
     {
       id: 27, //  spiked club + nerf gun ""
@@ -288,13 +304,14 @@ const prompts = [
     // From here below -- need to disappear buttons
     {
       id: 28, // cr
-      question: 'Robots take over your world, and your running shoes or baseball bat could not save you. THE END. Check out your moodvie recommendation below',
+      question: 'Robots take over your world, and your running shoes or baseball bat could not save you. THE END. Your moodvie is:',
       options: [
         {text: 'Alien directed by Ridley Scott'},   
         {text: ''},
         {text: ''},
         {text: ''}
-      ]
+      ],
+      questionImg: 'assets/img/img28transp.tiff'
     },
     {
       id: 29, // n
