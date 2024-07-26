@@ -265,7 +265,7 @@ const prompts = [
       questionImg: 'assets/img/img25.png'
     },
     {
-      id: 24, // light saber, sharpened pencil braveheart, joker 
+      id: 32, // light saber, sharpened pencil braveheart, joker 
       question: 'What world will you choose to explore?',
       options: [
         {text: 'Desert wasteland', navigateToIdx: 63},   
@@ -305,11 +305,12 @@ const prompts = [
         {text: 'Abandoned city', navigateToIdx: 68},
         {text: 'Jungle', navigateToIdx: 69},
         {text: 'Wild West', navigateToIdx: 70} 
-      ]
+      ],
+      questionImg: 'assets/img/img25.png'
     },
-    // From here below -- need to disappear buttons
+    // From here below -- I would eventually like to disappear the blank buttons and add alt text
     {
-      id: 28, // cr
+      id: 28, 
       question: 'Robots take over your world, and your running shoes or baseball bat could not save you. THE END. Your moodvie is:',
       options: [
         {text: 'Alien directed by Ridley Scott'},   
@@ -320,37 +321,470 @@ const prompts = [
       questionImg: 'assets/img/img28transp.tiff'
     },
     {
-      id: 29, // n
-      question: '',
+      id: 29,
+      question: 'You discover a hidden treasure chest full of gold. Your moodvie is:',
       options: [
-        {text: 'Desert wasteland', navigateToIdx: 43},   
-        {text: 'Abandoned city', navigateToIdx: 43},
-        {text: 'Jungle', navigateToIdx: 44},
-        {text: 'Wild West', navigateToIdx: 45} 
-      ]
+        { text: 'Pirates of the Caribbean: The Curse of the Black Pearl directed by Gore Verbinski' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img29.tiff'
     },
     {
-      id: 30, // cr
-      question: '',
+      id: 30,
+      question: 'You invent a time machine and travel to the future. Your moodvie is:',
       options: [
-        {text: 'Futuristic city', navigateToIdx: 40},    
-        {text: 'Jurassic era', navigateToIdx: 41}, 
-        {text: 'Exoplanet colony', navigateToIdx: 40},
-        {text: 'Underwater kingdom', navigateToIdx: 42} 
-      ]
+        { text: 'Back to the Future directed by Robert Zemeckis' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img30.tiff'
     },
     {
-      id: 31, // n
-      question: 'What world will you choose to explore?',
+      id: 31,
+      question: 'You save a city from a catastrophic event. Your moodvie is:',
       options: [
-        {text: 'Desert wasteland', navigateToIdx: 43},   
-        {text: 'Abandoned city', navigateToIdx: 43},
-        {text: 'Jungle', navigateToIdx: 44},
-        {text: 'Wild West', navigateToIdx: 45} 
-      ]
+        { text: 'The Dark Knight directed by Christopher Nolan' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img31.tiff'
     },
-  
-  ]
+    {
+      id: 32, 
+      question: 'You become the ringleader of a large gang that takes over the West. THE END. Your moodvie is:',
+      options: [
+        { text: 'Unforgiven directed by Clint Eastwoood' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img32.tiff'
+    },
+    {
+      id: 33,
+      question: 'You get stranded on a deserted island for years and struggle to survive. THE END. Your moodvie is:',
+      options: [
+        { text: 'Cast Away directed by Robert Zemeckis' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img33.tiff'
+    },
+    {
+      id: 34,
+      question: 'You become a world-renowned artist. Your moodvie is:',
+      options: [
+        { text: 'Frida directed by Julie Taymor' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img34.tiff'
+    },
+    {
+      id: 35,
+      question: 'You embark on a journey to save your family. Your moodvie is:',
+      options: [
+        { text: 'Taken directed by Pierre Morel' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img35.tiff'
+    },
+    {
+      id: 36,
+      question: 'You are betrayed by your closest ally in a battle. THE END. Your moodvie is:',
+      options: [
+        { text: 'Gladiator directed by Ridley Scott' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img36.tiff'
+    },
+    {
+      id: 37,
+      question: 'You are a detective solving a complex mystery. Your moodvie is:',
+      options: [
+        { text: 'Sherlock Holmes directed by Guy Ritchie' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img37.tiff'
+    },
+    {
+      id: 38,
+      question: 'You navigate the gritty underworld of crime and barely survive. THE END. Your moodvie is:',
+      options: [
+      { text: 'Pulp Fiction directed by Quentin Tarantino' },
+      { text: '' },
+      { text: '' },
+      { text: '' }
+      ],
+      questionImg: 'assets/img/img38.tiff'
+    },
+    {
+      id: 39,
+      question: 'Your journey has transformed you into a short, worrisome creature with large feet. However you are also now a hero in a fantasy world. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Lord of the Rings: The Fellowship of the Ring directed by Peter Jackson' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img39.tiff'
+    },
+    {
+      id: 40,
+      question: 'You lead a revolution against a tyrannical government. Your moodvie is:',
+      options: [
+        { text: 'V for Vendetta directed by James McTeigue' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img40.tiff'
+    },
+    {
+      id: 41,
+      question: 'You are a brilliant scientist who makes a groundbreaking discovery. Your moodvie is:',
+      options: [
+        { text: 'A Beautiful Mind directed by Ron Howard' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img41.tiff'
+    },
+    {
+      id: 42,
+      question: 'You witness the rise and fall of a powerful figure. Your moodvie is:',
+      options: [
+      { text: 'Citizen Kane directed by Orson Welles' },
+      { text: '' },
+      { text: '' },
+      { text: '' }
+     ],
+      questionImg: 'assets/img/img42.tiff'
+    },
+    {
+      id: 43,
+      question: 'You find yourself in the midst of a zombie apocalypse but you save your friends and survive. THE END. Your moodvie is:',
+      options: [
+        { text: 'Attack the Block directed by Joe Cornish' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img43.tiff'
+    },
+    {
+      id: 44,
+      question: 'You are betrayed by someone you trusted and lose everything. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Count of Monte Cristo directed by Kevin Reynolds' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img44.tiff'
+    },
+    {
+      id: 45,
+      question: 'You embark on an interstellar journey and although you never return home, you experience things no one ever will. THE END Your moodvie is:',
+      options: [
+        { text: 'Interstellar directed by Christopher Nolan' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img45.tiff'
+    },
+    {
+      id: 46,
+      question: 'You witness the collapse of a powerful empire and build your own. THE END. Your moodvie is:',
+      options: [
+        { text: 'Ran directed by Akira Kurosawa' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img46.tiff'
+    },
+    {
+      id: 47,
+      question: 'You discover you have superpowers and fall madly in love. THE END. Your moodvie is:',
+      options: [
+        { text: 'Spider-Man directed by Sam Raimi' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img47.tiff'
+    },
+    {
+      id: 48,
+      question: 'You uncover a haunting family secret and it results in the end of your world. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Others directed by Alejandro Amenábar' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img48.tiff'
+    },
+    {
+      id: 49,
+      question: 'You experience a strange phenomenon that defies explanation but discover the meaning of life. THE END. Your moodvie is:',
+      options: [
+        { text: 'Everything Everywhere All at Once directed by Daniel Kwan and Daniel Scheinert' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img49.tiff'
+    },
+    {
+      id: 50,
+      question: 'You are hunted by a monstrous creature for the rest of your life. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Thing directed by John Carpenter' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img50.tiff'
+    },
+    {
+      id: 51,
+      question: 'In this world, you make new friends quickly and enemies quicker. You survive by the skin of your teeth. THE END. Your moodvie is:',
+      options: [
+      { text: 'Fight Club directed by David Fincher' },
+      { text: '' },
+      { text: '' },
+      { text: '' }
+      ],
+      questionImg: 'assets/img/img51.tiff'
+    },
+    {
+      id: 52,
+      question: 'You are a detective investigating a complex crime. Your moodvie is:',
+      options: [
+        { text: 'Se7en directed by David Fincher' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img52.tiff'
+    },
+    {
+      id: 53,
+      question: 'You discover a secret world hidden in plain sight and now you must live in hiding for the rest of your life. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Matrix directed by the Wachowskis' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img53.tiff'
+    },
+    {
+      id: 54,
+      question: 'You lead a rebellion against an oppressive regime. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Hunger Games directed by Gary Ross' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img54.tiff'
+    },
+    {
+      id: 55,
+      question: 'You are caught in a deadly game of cat and mouse that you cannot escape. THE END. Your moodvie is:',
+      options: [
+      { text: 'Basic Instinct directed by Paul Verhoeven' },
+      { text: '' },
+      { text: '' },
+      { text: '' }
+      ],
+      questionImg: 'assets/img/img55.tiff'
+    },
+    {
+      id: 56,
+      question: 'You become a renowned detective solving the toughest cases. Your moodvie is:',
+      options: [
+        { text: 'Sherlock Holmes directed by Guy Ritchie' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img56.tiff'
+    },
+    {
+      id: 57,
+      question: 'You are a courageous explorer venturing into the unknown. Your moodvie is:',
+      options: [
+        { text: 'Indiana Jones and the Last Crusade directed by Steven Spielberg' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img57.tiff'
+    },
+    {
+      id: 58,
+      question: 'You are possessed by a malevolent entity. Your moodvie is:',
+      options: [
+      { text: 'The Exorcist directed by William Friedkin' },
+      { text: '' },
+      { text: '' },
+      { text: '' }
+      ],
+      questionImg: 'assets/img/img58.tiff'
+    },
+    {
+      id: 59,
+      question: 'You become a legendary warrior in an epic battle. Your moodvie is:',
+      options: [
+        { text: '300 directed by Zack Snyder' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img59.tiff'
+    },
+    {
+      id: 60,
+      question: 'You are a brilliant scientist making a groundbreaking discovery. Your moodvie is:',
+      options: [
+        { text: 'The Theory of Everything directed by James Marsh' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img60.tiff'
+    },
+    {
+      id: 61,
+      question: 'You find yourself in a dystopian future. Your moodvie is:',
+      options: [
+        { text: 'Blade Runner 2049 directed by Denis Villeneuve' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img61.tiff'
+    },
+    {
+      id: 62,
+      question: 'You are a fearless adventurer exploring ancient ruins. Your moodvie is:',
+      options: [
+        { text: 'Tomb Raider directed by Roar Uthaug' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img62.tiff'
+    },
+    {
+      id: 63,
+      question: 'You discover a conspiracy that threatens the world. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Bourne Identity directed by Doug Liman' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img63.tiff'
+    },
+    {
+      id: 64,
+      question: 'You experience the tragic rise and fall of a famous family, and luckily never end up in their crosshairs. THE END. Your moodvie is:',
+      options: [
+        { text: 'The Godfather directed by Francis Ford Coppola' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img64.tiff'
+    },
+    {
+      id: 65,
+      question: 'You witness the destruction caused by a giant monster and live in fear of his return. THE END. Your moodvie is:',
+      options: [
+      { text: 'Godzilla Minus One directed by Takashi Yamazaki' },
+      { text: '' },
+      { text: '' },
+      { text: '' }
+      ],
+      questionImg: 'assets/img/img65.tiff'
+    },
+    {
+      id: 66,
+      question: 'You are caught in a complex web of lies and deceit that you cannot escape. THE END. Your moodvie is:',
+      options: [
+        { text: 'Parasite directed by Bong Joon-ho' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img66.tiff'
+    },
+    {
+      id: 67,
+      question: 'You become a renowned chef opening your own restaurant. Your moodvie is:',
+      options: [
+        { text: 'Chef directed by Jon Favreau' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img67.tiff'
+    },
+    {
+      id: 68,
+      question: 'You struggle with delinquency and harsh realities for the rest of your journey. THE END. Your moodvie is:',
+      options: [
+        { text: 'The 400 Blows directed by François Truffaut' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img68.tiff'
+    },
+    {
+      id: 69,
+      question: 'You find yourself in a magical world full of wonders. THE END. Your moodvie is:',
+      options: [
+        { text: 'Harry Potter and the Sorcerer\'s Stone directed by Chris Columbus' },
+        { text: '' },
+        { text: '' },
+        { text: '' }
+      ],
+      questionImg: 'assets/img/img69.tiff'
+    },
+    {
+      id: 70,
+      question: 'You find yourself in a nightmarish reality you must fight to escape. THE END. Your moodvie is:',
+    options: [
+      { text: 'The Babadook directed by Jennifer Kent' },
+      { text: '' },
+      { text: '' },
+      { text: '' }
+    ],
+      questionImg: 'assets/img/img70.tiff'
+    }
+  ];
+
+
   
   /*
   synopsis credit: imdb.com and AFI.com

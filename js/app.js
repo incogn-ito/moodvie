@@ -30,12 +30,14 @@ const messageEl = document.querySelector('#message')
 const questionImg = document.querySelector('#question-img')
 const messageImg = document.querySelector('#message-img')
 
+// document.querySelector('img[src="processing_report.gif"]').setAttribute('alt', '<altText>')
+
 console.log(buttonA)
 console.log(buttonD)
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-let currPromptIdx, currPrompt, playerChoice
+let currPromptIdx, currPrompt
 
 
 
