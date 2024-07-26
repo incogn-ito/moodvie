@@ -38,10 +38,11 @@ const prompts = [
       question: 'You\'re going on an adventure, which character will you choose to be?',
       options: [
         {text: 'Shrek', navigateToIdx: 11},
-        {text: 'Deadpool', navigateToIdx: 12},
-        {text: 'Barbie', navigateToIdx: 11},
+        {text: 'Braveheart', navigateToIdx: 12},
+        {text: 'Juno', navigateToIdx: 11},
         {text: 'The Joker', navigateToIdx: 12}    
-      ]
+      ],
+      questionImg: 'assets/img/img3.png'
     },
     {
       id: 4, // 
