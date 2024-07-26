@@ -3,7 +3,7 @@
 # Moodvie  
 
 ## Description:
-Moodvie is a choose-your-own-adventure meets personalized movie generator game. When you don’t know what to watch next, Moodvie can help you find your new or old favorite flick. I love watching movies, so I was excited to find a way to incorporate some of my favorite characters into this project in a creative way. I was inspired by the book, 'Film Club' written by David Gilmour, a memoir about the 3 years he let his teenage son drop out of school if he watched 3 movies a week. My goal was to create a fun, interactive game that could help people, non-cinephiles and cinephiles alike, get back to some classic movies or simply find a starting point for some great films to begin watching.
+Moodvie is a choose-your-own-adventure meets personalized movie generator game. When you don’t know what to watch next, Moodvie can help you find your new or old favorite flick. I love watching movies, so I was excited to find a way to incorporate some of my favorite characters into this project in a creative way. I was inspired by the book, 'Film Club' written by David Gilmour, a memoir about the 3 years he let his teenage son drop out of school if he watched 3 movies a week. My goal was to create a fun, interactive game that could help people, non-cinephiles and cinephiles alike, get back to some classic movies or simply find a starting point to watch some great films.
 
 ## How to Play:
 1. Click "ready/start"
